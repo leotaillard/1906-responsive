@@ -25,6 +25,7 @@ a {
   text-decoration: none;
 }
 a:hover {
+	color: #feea00;
   border-bottom: 1px dashed white;
 }
 a.button{
