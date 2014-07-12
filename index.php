@@ -290,14 +290,11 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		 <div class="sixteen columns clearfix">
 			<!-- In nested columns give the first column a class of alpha
 			and the second a class of omega -->
-			<div class="four columns alpha">
-				<img src="img/aboutus/magasin.jpg" alt="devanture du magasin" />
-			</div>
-			<div class="six columns">
+			<div class="eight columns alpha">
 				<p>L'histoire de la maison Angéloz commence en 1906 par un commerce de tissus dans la région fribourgeoise. L'entreprise se développe au fil des générations et assied sa réputation sur la qualité de ses produits et sur la fidélité de ses clients. Durant les années 80-90, la surface sise au centre-ville de Fribourg s'agrandi considérablement et se voit transformée puis encore agrandie en plusieurs étapes jusqu'à la récente « importante mise à jour » fin 2008 (4 étages pour 1'600m2).
 				</p>
 			</div>
-						<div class="six columns omega">
+						<div class="eight columns omega">
 				<p>A cette forte compétence vient s'ajouter trois succursales  Angéloz (2 à Avry-centre, 1 à Gruyère-centre) et un magasin 1906 by angéloz (à Fribourg-centre), tous inaugurés en 2012. Ceux-ci permettent ainsi une complémentarité avec l'assortiment proposé par l'enseigne « Angéloz – Mode ».</p>
 				
 				<p>L'entreprise, aujourd'hui en main de la 4ème génération, a pour objectif de proposer, dans une atmosphère sobre et cosmopolite, des marques qui illustrent des valeurs et des styles de vie. Le service, le contact humain, la passion sont les valeurs qui nous animent et que nous aimons transmettre.</p>

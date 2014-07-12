@@ -34,7 +34,7 @@ a {
 }
 a:hover {
 	color: #feea00;
-	border-bottom: 1px dashed white;
+	border-bottom: 1px dashed #feea00;
 }
 a.button{
 	text-align: center;
@@ -265,6 +265,20 @@ background: white;
     display: none;
 }
 
+
+
+#aboutus{
+		background: url('../img/aboutus/background.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	color: white;
+}
+#aboutus h2{
+	border-bottom: white dashed 1px;
+}
 /* To fill the container and nothing else */
 
 .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
