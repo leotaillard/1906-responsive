@@ -22,10 +22,15 @@
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<meta property="og:title" content="Awesome, Inc. – We're even more awesome.">
-<meta property="og:description" content="Awesome's mission is to take cool to a whole new level.">
+<meta property="og:title" content="1906 by Angéloz">
+<meta property="og:description" content="For Girls:
+Maison Scotch / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Rich & Royal / French Connection / Vero Moda / Only / Pieces / Campus / Superdry / Adidas / Nike / UGG / and many others
+
+
+For Boys
+Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack & Jones / Superdry / Adidas / Nike / Swear / and many others">
 <meta property="og:image" content="http://YOURWEBSITE.com/YOURIMAGE.png">
-<meta property="og:image:secure_url" content="https://YOURWEBSITE.com/YOURIMAGE.png">
+<meta property="og:image:secure_url" content="css/img/logo-1906.svg">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1500">
 <meta property="og:image:height" content="1500">
