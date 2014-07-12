@@ -90,7 +90,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="arrow"><a href="#trends">▿</a></div>
 
 	<div class="covervid-wrapper">
-    <video class="covervid-video" autoplay loop poster="img/video-fallback.png">
+    <video class="covervid-video" autoplay loop poster="img/intro/intro.jpg">
         <source src="video/video.webm" type="video/webm">
         <source src="video/video.mp4" type="video/mp4">
     </video>

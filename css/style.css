@@ -196,7 +196,7 @@ h2 {
 
 }
 #intro .container{
-	z-index: 10;
+	z-index: 1;
 }
 #intro h1{
 	color: yellow;
