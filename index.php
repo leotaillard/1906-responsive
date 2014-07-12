@@ -29,8 +29,8 @@ Maison Scotch / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Rich 
 
 For Boys
 Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack & Jones / Superdry / Adidas / Nike / Swear / and many others">
-<meta property="og:image" content="http://YOURWEBSITE.com/YOURIMAGE.png">
-<meta property="og:image:secure_url" content="css/img/logo-1906.svg">
+<meta property="og:image" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
+<meta property="og:image:secure_url" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1500">
 <meta property="og:image:height" content="1500">
