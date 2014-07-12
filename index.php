@@ -306,19 +306,21 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- SECTION About -->
 <footer class="panel" id="copyright">
 <div class="container">
-<!--	<div class="one-third column">
-		<p>tous droits réservés - Angéloz mode - <?php echo date("Y"); ?> - proudly design and developped by <a href="http://mynameis.ch">mni</a></p>
-	</div>-->
-		<div class="eight columns">
+	<div class="sixteen columns clearfix">
+		<div class="eight columns alpha">
 			<h3>Réseaux Sociaux</h3>
 	<div class="fb-like-box" style="background: white;" data-href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" data-width="480px" data-height="400px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 	
 		</div>
 	
-	<div class="eight columns">
+	<div class="four columns">
 		<h3>Angéloz mode</h3>
 		<a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo_angeloz_old.png" alt="Angéloz mode" /></a>
 	</div>
+	<div class="four columns omega">
+		<p>tous droits réservés - Angéloz mode - <?php echo date("Y"); ?> - proudly design and developped by <a href="http://mynameis.ch">mni</a></p>
+	</div>
+</div>
 </div>
 </footer>
 
