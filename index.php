@@ -55,9 +55,9 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	</nav>
 	<nav id="menu" class="thirteen columns clearfix">
 		<ul>
+			<li><a href="#trends">Trends</a></li>
 			<li><a href="#contact">Magasins</a></li>
 			<li><a href="#brands">Brands</a></li>
-			<li><a href="#trends">Trends</a></li>
 			<li><a href="#compte">Compte Avantages Client</a></li>
 			<li><a href="#giftcard">Giftcard</a></li>
 			<li><a href="#jobs">Jobs</a></li>
@@ -89,6 +89,15 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	</div>
 	<div class="arrow"><a href="#contact">▿</a></div>
 </section>
+<!-- SECTION TRENDS -->
+<section class="panel" id="trends">
+	<ul id="instafeed" class="clearfix"></ul>
+	<div class="container">
+		<h2>trends</h2>
+	<div data-configid="7214851/8589718" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>	</div>
+
+</section>
+
 <!-- SECTION MAGASIN -->
 <section class="panel" id="contact">
 	<div class="container">
@@ -193,21 +202,6 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 		</div>
 	</div>
-</section>
-<!-- SECTION TRENDS -->
-<section class="panel" id="trends">
-	<div class="container">
-		<h2>trends</h2>
-	 	<div data-configid="11252977/8499919" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-	</div>
-	<div class="container">
-		<h2>InstaWall</h2>
-	</div>
-		<ul id="instafeed" class="clearfix">
-			
-
-		</ul>
-
 </section>
 <!-- SECTION AVANTAGES CLIENTS -->
 <section class="panel" id="compte">
@@ -403,13 +397,22 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
             }
         });
 
+	    // var feed = new Instafeed({
+	    //     get: 'tagged',
+	    //     tagName: 'scotchAndSoda',
+	    //     clientId: 'fbd033d3e5774ce89b1cbb5ef015afb7',
+	    //     resolution:'low_resolution',
+	    //     limit:'10',
+	    //     template: '<li><img src="{{image}}" /></li>',
+
+	    // });
 	    var feed = new Instafeed({
-	        get: 'tagged',
-	        tagName: 'scotchAndSoda',
-	        clientId: '7728e7acc9ca43d5afba0b50ba0bf8fb',
+	        get: 'user',
+	        userId: 1336494812,
+	        accessToken: '1336494812.467ede5.1b5b527428f0494d873e9eba645907cf',
 	        resolution:'low_resolution',
 	        limit:'10',
-	        template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}" /></a></li>',
+	        template: '<li><img src="{{image}}" /></li>',
 
 	    });
 	    feed.run();

@@ -26,8 +26,7 @@ a {
 }
 a:hover {
 	color: #feea00;
-
-  border-bottom: 1px dashed white;
+	border-bottom: 1px dashed white;
 }
 a.button{
 	text-align: center;
