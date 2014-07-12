@@ -87,7 +87,14 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<a href="#modal-text" class="button button-intro call-modal" title="Commander un bon en ligne">Commander un bon en ligne</a>				
 		</div>
 	</div>
-	<div class="arrow"><a href="#contact">▿</a></div>
+	<div class="arrow"><a href="#trends">▿</a></div>
+
+	<div class="covervid-wrapper">
+    <video class="covervid-video" autoplay loop poster="img/video-fallback.png">
+        <source src="video/video.webm" type="video/webm">
+        <source src="video/video.mp4" type="video/mp4">
+    </video>
+</div>
 </section>
 <!-- SECTION TRENDS -->
 <section class="panel" id="trends">
@@ -374,11 +381,12 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
 <script src="js/jquery.mixitup.js" type="text/javascript"></script>
 <script src="js/jquery.instafeed.min.js" type="text/javascript"></script>
+<script src="js/jquery.covervid.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 
     $(document).ready(function () {
-
+    	$('.covervid-video').coverVid(1280, 720);
 		$('#container-brands').mixItUp();
     
         $('#horizontalTab').easyResponsiveTabs({
@@ -397,15 +405,6 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
             }
         });
 
-	    // var feed = new Instafeed({
-	    //     get: 'tagged',
-	    //     tagName: 'scotchAndSoda',
-	    //     clientId: 'fbd033d3e5774ce89b1cbb5ef015afb7',
-	    //     resolution:'low_resolution',
-	    //     limit:'10',
-	    //     template: '<li><img src="{{image}}" /></li>',
-
-	    // });
 	    var feed = new Instafeed({
 	        get: 'user',
 	        userId: 1336494812,
