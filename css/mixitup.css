@@ -1,0 +1,64 @@
+#brands-nav{
+	margin-bottom: 20px;
+}
+#brands-nav .filter{
+	cursor: pointer;
+	border: 2px #003552 solid;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+}
+#brands-nav .filter.active{
+	background: #003552;
+	color: white;
+}
+#brands-nav .filter:hover{
+	background: rgba(0,53,82,1);
+	color: white;
+}
+
+#container-brands .mix{
+	display: none;
+	min-height: 100px;
+	margin-bottom: 10px;
+}
+#container-brands .mix a:hover{
+	border: none;
+
+}
+ul#instafeed{
+	list-style: none;
+}
+ul#instafeed li{
+	float: left;
+	width: 20%;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+@media only screen and (max-width: 959px) {
+.issuuembed{display: none;}
+#brands-nav .filter{
+	cursor: pointer;
+	float: none;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+ul#instafeed li{
+	float: left;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+
+}
+#container-brands .mix{
+	display: none;
+	min-height: 20px;
+	margin-bottom: 10px;
+}
+
+}
