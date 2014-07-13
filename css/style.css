@@ -238,29 +238,15 @@ background: white;
 }
 
 /* ACCORDION */
-#fribourg{
-	background: url('../img/mag/magfribourg.jpg') no-repeat ;
-}
-#la-tour{
-	background: url('../img/mag/maglatour.jpg') no-repeat ;
+nav.nav-mag a{
+	width: 20%;
+	float: left;
+	margin: 5px 0 20px 10px;
 }
 
-.resp-tabs-container p{
-	padding: 20px 20px 20px 80px;
-	background-color: rgba(0, 53, 82, 0.8);
-	width: 100%;
-	min-height: 420px;
-	color: white;
-}
-.horaire{
-	font-size: 12px;
-}
-#horaire{
- padding: 0;
- list-style: none;
- position: relative;
- z-index: 20;
-}
+
+
+
 #fb-root {
     display: none;
 }
@@ -289,37 +275,11 @@ footer#copyright{
 	font-size: 12px;
 	color: white;
 	background: #003552;
+	text-align: center;
 }
-#other_site{
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	padding: 5px;
-	margin: 5px;
-	width: 100px;
-}
-#other_site a{
-	display: block;
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-#other_site a:hover{
-	border: none;
-}
-#other_site img{
-	max-width: 100%;
-}
-#facebook{
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	margin: 15px;
-}
-#facebook a{
-	font-size: 8px;
-	text-transform: uppercase;
-	margin: 5px 0 0 5px;
+footer span.heart{
+	color: red;
+	font-size: 20px;
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {

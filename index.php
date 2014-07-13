@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="css/skeleton.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/mixitup.css" />
-<link type="text/css" rel="stylesheet" href="css/easy-responsive-tabs.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -109,55 +109,9 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="contact">
 	<div class="container">
 		<h2>Magasins</h2>
-	 	<div class="sixteen columns clearfix accordion">
-<!--Horizontal Tab-->
-<div id="horizontalTab">
-    <ul class="resp-tabs-list">
-        <li>Fribourg</li>
-        <li>Centre la tour</li>
-    </ul>
-    <div class="resp-tabs-container">
-        <div>
-        	<div id="fribourg">
-			<p class="horaire">
-				<span>Horaire</span><br>
-				<span>Lu/Mo</span>	8h30-19h00<br>
-				<span>Ma/Di</span>	8h30-19h00<br>
-				<span>Me/Mi</span>	8h30-19h00<br>
-				<span>Je/Do</span>	8h30-21h00<br>
-				<span>Ve/Fr</span>	8h30-19h00<br>
-				<span>Sa/Sa</span>	8h00-16h00<br><br>
-				Fribourg<br>
-				1906 by Angéloz<br>
-				Fribourg Centre<br>
-				1701 Fribourg<br>
-				tél. +41 (0)26 341 00 41<br>
-				fax +41 (0)26 469 77 88<br>
-				email : <a href="mailto:office@angeloz-mode.ch">office@angeloz-mode.ch</a>
-			</p>
-			</div>
-        </div>
-        <div>
-			<div id="la-tour">
-			<p class="horaire">
-				<span>Horaire</span><br />
-				<span>Lu/Mo</span>	8h00-19h00<br />
-				<span>Ma/Di</span>	8h00-19h00<br />
-				<span>Me/Mi</span>	8h00-19h00<br />
-				<span>Je/Do</span>	8h00-21h00<br />
-				<span>Ve/Fr</span>	8h00-19h00<br />
-				<span>Sa/Sa</span>	8h00-16h00<br /><br />
-				<span>Centre La Tour</span><br />
-				Angéloz Mode<br />
-				Route de Pra-Riond 2<br />
-				1635 La Tour-de-Trême<br />
-				tél. +41 (0)26 913 74 60<br />
-				email : <a href="mailto:office@angeloz-mode.ch">office@angeloz-mode.ch</a>
-			</p>
-        	</div>
-        </div>
-    </div>
-</div>		</div>
+		
+		<?php  include('owl-mag.php'); ?>
+
 	</div>
 </section>
 
@@ -298,23 +252,10 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </div>
 </section>
 <!-- SECTION About -->
+<!-- FOOTER -->
 <footer class="panel" id="copyright">
 <div class="container">
-	<div class="sixteen columns clearfix">
-		<div class="eight columns alpha">
-			<h3>Réseaux Sociaux</h3>
-	<div class="fb-like-box" style="background: white;" data-href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" data-width="480px" data-height="400px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-	
-		</div>
-	
-	<div class="four columns">
-		<h3>Angéloz mode</h3>
-		<a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo_angeloz_old.png" alt="Angéloz mode" /></a>
-	</div>
-	<div class="four columns omega">
-		<p>tous droits réservés - Angéloz mode - <?php echo date("Y"); ?> - proudly design and developped by <a href="http://mynameis.ch">mni</a></p>
-	</div>
-</div>
+		<p>tous droits réservés - Angéloz mode - <?php echo date("Y"); ?> - made with <span class="heart">❤</span> by <a href="http://mynameis.ch" target="_blank">mni</a></p>
 </div>
 </footer>
 
@@ -365,7 +306,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- SCRIPTS -->
 <script src="js/jquery-1.7.1.js"></script>
 <script src="js/jquery.angeloz.js"></script>
-<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script src="js/jquery.owl.carousel.min.js" type="text/javascript"></script>
 <script src="js/jquery.mixitup.js" type="text/javascript"></script>
 <script src="js/jquery.instafeed.min.js" type="text/javascript"></script>
 <script src="js/jquery.covervid.min.js" type="text/javascript"></script>
@@ -375,23 +316,15 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
     $(document).ready(function () {
     	$('.covervid-video').coverVid(1280, 720);
 		$('#container-brands').mixItUp();
-    
-        $('#horizontalTab').easyResponsiveTabs({
-            type: 'default', //Types: default, vertical, accordion           
-            width: 'auto', //auto or any width like 600px
-            fit: true,   // 100% fit in a container
-            closed: false, // Start closed if in accordion view
-           
-            activate: function(event) { // Callback function if tab is switched
-                var $tab = $(this);
-                var $info = $('#tabInfo');
-                var $name = $('span', $info);
-                $name.text($tab.text());
-
-                $info.show();
-            }
-        });
-
+    	
+    	$(".owl-carousel").owlCarousel({
+		    items:1,
+		    margin:10,
+        	URLhashListener:true,
+        	autoplayHoverPause:true,
+    	    startPosition: 'fribourg',
+       	});
+	    
 	    var feed = new Instafeed({
 	        get: 'user',
 	        userId: 1336494812,
