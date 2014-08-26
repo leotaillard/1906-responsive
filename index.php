@@ -123,38 +123,12 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<div class="filter" data-filter="all">Toutes les marques</div>
 			<div class="filter" data-filter=".fribourg">Fribourg Centre</div>
 			<div class="filter" data-filter=".laTour">Centre la Tour</div>
+			<div class="filter" data-filter=".man">Homme</div>
+			<div class="filter" data-filter=".woman">Femme</div>
 
 			<div class="clear"></div>
 		</nav>
 		<div id="container-brands" class="container">
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg laTour two columns" data-myorder="2"><img src="img/brands/scotchandsoda.svg" alt="Scotch and Soda"><h3>Sotch and soda</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix laTour two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-			<div class="mix fribourg two columns" data-myorder="2"><img src="img/brands/jackjones.svg" alt="Jack and Jones"><h3>Jack Jones</h3></div>
-
 		</div>
 	</div>
 </section>
@@ -315,7 +289,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
     $(document).ready(function () {
     	$('.covervid-video').coverVid(1280, 720);
-		$('#container-brands').mixItUp();
+
+$('#container-brands').mixItUp();
     	
     	$(".owl-carousel").owlCarousel({
 		    items:1,
