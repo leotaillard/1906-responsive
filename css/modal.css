@@ -145,6 +145,7 @@ a.modal-close:hover{
 }
 .modal-content p{
 	font-size: 8px;
+  line-height: 12px;
 }
 .modal-half img{
 	max-width: 100%;

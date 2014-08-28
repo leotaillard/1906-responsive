@@ -12,7 +12,11 @@
 <link rel="stylesheet" href="../css/text.css" />
 <link rel="stylesheet" href="../css/skeleton.css" />
 <link rel="stylesheet" href="../css/style.css" />
-<link type="text/css" rel="stylesheet" href="../css/easy-responsive-tabs.css" />
+<link rel="stylesheet" href="../css/mixitup.css" />
+<link rel="stylesheet" href="../css/owl.carousel.css" />
+<link rel="stylesheet" href="../css/thewall.css" />
+
+<link rel="stylesheet" href="../css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -21,7 +25,16 @@
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-
+<meta property="og:title" content="1906 by Angéloz">
+<meta property="og:description" content="For Girls:
+Maison Scotch / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Rich & Royal / French Connection / Vero Moda / Only / Pieces / Campus / Superdry / Adidas / Nike / UGG / and many others
+For Boys
+Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack & Jones / Superdry / Adidas / Nike / Swear / and many others">
+<meta property="og:image" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
+<meta property="og:image:secure_url" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="1500">
 </head>
 <body id="top">
 <div id="fb-root"></div>
@@ -43,161 +56,120 @@
 	</nav>
 	<nav id="menu" class="thirteen columns clearfix">
 		<ul>
-			<li><a href="#contact">Geschäfte</a></li>
-			<li><a href="#brands">Brands</a></li>
 			<li><a href="#trends">Trends</a></li>
-			<li><a href="#compte">FINANZIELLES</a></li>
+			<li><a href="#contact">Magasins</a></li>
+			<li><a href="#brands">Brands</a></li>
+			<li><a href="#compte">Compte Avantages Client</a></li>
 			<li><a href="#giftcard">Giftcard</a></li>
 			<li><a href="#jobs">Jobs</a></li>
 			<li><a href="#aboutus">About us</a></li>
-		</ul>
-		<ul class="ipad" id="langue-hidden">
-			<li><a href="../">Français</a></li>
-		</ul>
-		
+			</ul>
+			<ul class="ipad" id="langue-hidden">
+				<li><a href="de">Deutsch</a></li>
+			</ul>
 	</nav>
 	
 	<nav id="langue" class="one columns omega clearfix">
-		<a href="../">Français</a>
+		<a href="de">Deutsch</a>
 	</nav>
 </div>
 </header>
 	
 <!-- FIN DU HEADER -->
+<section class="panel" id="intro">
+	<div class="container">
+		<div class="sixteen columns">
+			<h1><img src="../css/img/logo-1906.svg" alt="logo angeloz mode" /></h1>
+		</div>
+		<div class="eight columns">
+			<a href="#trends" class="button-intro" title="Découvrez nos dernières nouveautés">Découvrez nos dernières nouveautés</a>				
+		</div>
+		<div class="eight columns">
+			<a href="#modal-text" class="button button-intro call-modal" title="Commander un bon en ligne">Commander un bon en ligne</a>				
+		</div>
+	</div>
+	<div class="arrow"><a href="#trends">▿</a></div>
+
+	<div class="covervid-wrapper">
+    <video class="covervid-video" autoplay loop poster="../img/intro/intro.jpg">
+        <source src="../video/video.webm" type="video/webm">
+        <source src="../video/video.mp4" type="video/mp4">
+    </video>
+</div>
+</section>
+<!-- SECTION TRENDS -->
+<section class="panel" id="trends">
+	<ul id="instafeed" class="clearfix"></ul>
+	<div class="container">
+		<h2>trends</h2>
+	<div data-configid="7214851/8589718" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>	</div>
+
+</section>
+
 <!-- SECTION MAGASIN -->
 <section class="panel" id="contact">
 	<div class="container">
-		<h2>Geschäfte</h2>
-	 	<div class="sixteen columns clearfix accordion">
-<!--Horizontal Tab-->
-<div id="horizontalTab">
-    <ul class="resp-tabs-list">
-        <li>News</li>
-        <li>Fribourg</li>
-        <li>Centre la tour</li>
-    </ul>
-    <div class="resp-tabs-container">
-        <div>
-			<img src="../img/news/NEWS-1906.jpg" alt="News"/>
-        </div>
-        <div>
-        	<div id="fribourg">
-			<p class="horaire">
-				<span><b>Öffnungszeit</b></span><br />
-				<span>Lu/Mo</span>	8h30-19h00<br>
-				<span>Ma/Di</span>	8h30-19h00<br>
-				<span>Me/Mi</span>	8h30-19h00<br>
-				<span>Je/Do</span>	8h30-21h00<br>
-				<span>Ve/Fr</span>	8h30-19h00<br>
-				<span>Sa/Sa</span>	8h00-16h00<br><br>
-				Fribourg<br>
-				1906 by Angéloz<br>
-				Fribourg Centre<br>
-				1701 Fribourg<br>
-				tél. +41 (0)26 341 00 41<br>
-				fax +41 (0)26 469 77 88<br>
-				email : <a href="mailto:office@angeloz-mode.ch">office@angeloz-mode.ch</a>
-			</p>
-			</div>
-        </div>
-        <div>
-			<div id="la-tour">
-			<p class="horaire">
-				<span><b>Öffnungszeit</b></span><br />
-				<span>Lu/Mo</span>	8h00-19h00<br />
-				<span>Ma/Di</span>	8h00-19h00<br />
-				<span>Me/Mi</span>	8h00-19h00<br />
-				<span>Je/Do</span>	8h00-21h00<br />
-				<span>Ve/Fr</span>	8h00-19h00<br />
-				<span>Sa/Sa</span>	8h00-16h00<br /><br />
-				<span>Centre La Tour</span><br />
-				Angéloz Mode<br />
-				Route de Pra-Riond 2<br />
-				1635 La Tour-de-Trême<br />
-				tél. +41 (0)26 913 74 60<br />
-				email : <a href="mailto:office@angeloz-mode.ch">office@angeloz-mode.ch</a>
-			</p>
-        	</div>
-        </div>
-    </div>
-</div>
-</div>
+		<h2>Magasins</h2>
 	</div>
+<?php  include('../owl-mag.php'); ?>
+
 </section>
 
 <!-- SECTION BRANDS -->
 <section class="panel" id="brands">
 	<div class="container">
 		<h2>brands</h2>
-		<div class="sixteen columns clearfix">
-			<div class="eight columns alpha clearfix">
-				<img src="../css/img/brands-left.png" alt="All the brands we have" />
-			</div>
-			<div class="eight columns omega clearfix">
-				<img src="../css/img/brands-right.png" alt="All the brands we have" />
-			</div>
-		</div>
-		
-	</div>
-</section>
-<!-- SECTION TRENDS -->
-<section class="panel" id="trends">
-	<div class="container">
-		<h2>trends</h2>
-	 	<div class="sixteen columns clearfix container-img">
-	 		<div class="eight columns alpha">
-				<img src="../img/trends/1906-sept-trends-01-left.jpg" alt="Trends Man 1906" />
-	 		</div>
-			<div class="eight columns omega">
-				<img src="../img/trends/1906-sept-trends-01-right.jpg" alt="Trends Man 1906" />
-			</div>
-		</div>
-			<div class="sixteen columns clearfix container-img">
-				<div class="eight columns alpha">
-					<img src="../img/trends/1906-sept-trends-02-left.jpg" alt="Trends Man 1906" />
-				</div>
-			<div class="eight columns omega">
-				<img src="../img/trends/1906-sept-trends-02-right.jpg" alt="Trends Man 1906" />
-			</div>
+		<nav id="brands-nav">
+			<div class="filter" data-filter="all">Toutes les marques</div>
+			<div class="filter" data-filter=".fribourg">Fribourg Centre</div>
+			<div class="filter" data-filter=".laTour">Centre la Tour</div>
+			<div class="filter" data-filter=".man">Homme</div>
+			<div class="filter" data-filter=".woman">Femme</div>
+
+			<div class="clear"></div>
+		</nav>
+		<div id="container-brands" class="container">
 		</div>
 	</div>
 </section>
 <!-- SECTION AVANTAGES CLIENTS -->
 <section class="panel" id="compte">
 	<div class="container">
-		<h2>FINANZIELLES</h2>
+		<h2>Compte</h2>
 		 <div class="sixteen columns clearfix">
 			<!-- In nested columns give the first column a class of alpha
 			and the second a class of omega -->
 			<div class="six columns alpha txt-align-right">
-				    <p>
-				Bspw. erhalten Sie bei einem Einkaufswert von 500CHF pro Jahr einen Treuegutschein im Wert von <strong>50CHF</strong>.
+			    <p>
+					P. ex : 500 CHF d'achats en 12 mois.<br />
+					Vous receveez un bon de fidélité de <b>50 CHF</b>
 				</p>
 				<p>
-				Bei einem Einkauf von 750CHF pro Jahr erhalten Sie einen Treuegutschein von <strong>75CHF</strong>.
+					750 CHF d'achats en 12 mois.<br />
+					Vous recevez un bon de fidélité de <b>75 CHF</b>
 				</p>
 			</div>
 			<div class="ten columns omega">
-			   <h3>Treuegutscheine</h3>
+			  <h3>Bons Fidélité</h3>
+			    <p>
+			    	Dès un cumul de 500.- d'achats (max 12 mois)*, un bon cadeau d'une valeur de 10% de ce montant vous est envoyé.
+			    </p>
+				<h3>Information</h3>
+				<p>
+			Restez informé sur nos offres actuelles, nos dernières tendances d'habillement et de marques ainsi que nos événements et manifestations.
+				</p>
+			    <h3>Service personnel</h3>
 			      <p>
-			      	Ab einer Einkaufssumme von 500CHF (max. 12 Monate*) erhalten Sie einen Geschenkgutschein im Wert von 10% dieser Summe.
-			      </p>
-			  	<h3>Information</h3>
-			  	<p>
-			  Informieren Sie sich über unsere aktuellen Angebote, sowie Trends und Marken und unsere vielseitigen Mode-Events und Veranstaltungen.
-			  	</p>
-			      <h3>Kundendienst</h3>
-			        <p>
-			  Profitieren Sie, nach Terminvereinbarung, vom Rat Ihres persönlichen Kundenberaters, während oder ausserhalb der Öffnungszeiten.
-			  	</p>
-			      <h3>Schneiderei für individuelle Anpassungen</h3>
-			        <p>
-			  Haben Sie Wünsche zu individuellen Anpassungen Ihrer Kleidungsstücke, die Sie bei uns erworben haben? Dann sind Sie in unserer schnellen Schneiderei genau richtig: unsere professionellen SchneiderInnen helfen Ihnen gerne innerhalb von drei bis fünf Werktagen weiter.
-			  	</p>
-			      <h3>Umtausch von Ware</h3>
-			        <p>
-			  Geben Sie Waren, die Sie bei uns gekauft haben, innerhalb von drei Tagen zurück und Sie erhalten den Kaufpreis in voller Höhe in Form eines Geschenkgutscheins. Denken Sie bitte beim Umtausch an den Kassenzettel und die Unversehrtheit der Ware, sowie sämtliche Preisschilder, die beim Kauf am Kleidungsstück angebracht waren.
-			  	</p>
+			Bénéficiez d'un conseil personnalisé sur rendez-vous, durant ou en dehors des heures d'ouverture.
+				</p>
+			    <h3>Retouches</h3>
+			      <p>
+			Profitez d'un service de retouche rapide (max. 3-5 jours) exécuté par nos couturier-s/ères qualifié-s/es.
+				</p>
+			    <h3>Echange-Retour achats</h3>
+			      <p>
+			Retournez vos achats dans les 3 jours et nous vous les rembourserons sous forme de bons d'achat. Vos achats ne peuvent être acceptés qu'avec la quittance et dans l'état d'origine.
+				</p>
 			</div>
 		</div>
 </div>
@@ -211,7 +183,7 @@
 				<img src="../img/giftcard/giftcard.png" alt="Giftcard" />
 			</div>
 			<div class="eight columns omega">
-				<p>Diese Geschenkgutscheine, genannt „Giftcards“, sind in den Boutiquen Angéloz in Fribourg, Avry, Bulle und La Tour-de-Trême, sowie in der Boutique 1906 by Angéloz im Fribourg Centre erhältlich. Fragen Sie einfach unser Personal vor Ort nach der „Giftcard“.</p>
+				<p>Les bons cadeaux Giftcards sont valable dans les magasins "Angéloz" à Fribourg, Avry, Bulle et La Tour-de-Trême ainsi que dans le magasin "1906 by Angeloz" à Fribourg Centre</p>
 				
 				<a href="#modal-text" class="button call-modal" title="Commander un bon en ligne">Commander un bon en ligne</a>				
 				
@@ -223,14 +195,7 @@
 <section class="panel" id="jobs">
 	<div class="container">
 		<h2>Jobs</h2>
-		 <div class="sixteen columns clearfix">
-			<div class="eight columns alpha container-img">
-				<img src="../img/annonce/annonce_1906_de_det.jpg" alt="Annonce de jobs" />
-			</div>
-			<div class="eight columns omega container-img">
-				<img src="../img/annonce/annonce_1906_de_ver.jpg" alt="Annonce de jobs" />
-			</div>
-		</div>
+		<?php include('jobs.php'); ?>
 </div>
 </section>
 <!-- SECTION About -->
@@ -240,35 +205,27 @@
 		 <div class="sixteen columns clearfix">
 			<!-- In nested columns give the first column a class of alpha
 			and the second a class of omega -->
-			<div class="four columns alpha">
-				<img src="../img/aboutus/magasin.jpg" alt="devanture du magasin" />
-			</div>
-			<div class="twelve columns omega">
-				<p>Die Geschichte von Angéloz beginnt im Jahre 1906 mit einer Weberei in der Region Fribourg. Es handelt sich dabei um ein Familienunternehmen, welches seine Reputation und sein Image der Qualität der Produkte und der Treue der Kunden zu verdanken hat. Während den 80er und 90er Jahren wächst das Unternehmen zunehmend und geniesst schliesslich im Jahre 2008 den Durchbruch (mit einer Produktionsfläche über vier Etagen, die 1600m² zählen.
+			<div class="eight columns alpha">
+				<p>L'histoire de la maison Angéloz commence en 1906 par un commerce de tissus dans la région fribourgeoise. L'entreprise se développe au fil des générations et assied sa réputation sur la qualité de ses produits et sur la fidélité de ses clients. Durant les années 80-90, la surface sise au centre-ville de Fribourg s'agrandi considérablement et se voit transformée puis encore agrandie en plusieurs étapes jusqu'à la récente « importante mise à jour » fin 2008 (4 étages pour 1'600m2).
 				</p>
-				<p>Diese starke Position des Unternehmens macht die Eröffnung neuer Filialen möglich (zwei in Avry-Centre, eine in Gruyère-Centre) und das neue Konzept 1906 by Angéloz im Fribourg Centre. Diese Neueröffnungen erfolgten alle im Jahr 2012, was die Einheitlichkeit des Angebots einer jeden Boutique Angéloz entscheidend vereinfacht.</p>
+			</div>
+						<div class="eight columns omega">
+				<p>A cette forte compétence vient s'ajouter trois succursales  Angéloz (2 à Avry-centre, 1 à Gruyère-centre) et un magasin 1906 by angéloz (à Fribourg-centre), tous inaugurés en 2012. Ceux-ci permettent ainsi une complémentarité avec l'assortiment proposé par l'enseigne « Angéloz – Mode ».</p>
 				
-				<p>Heute ist das Unternehmen bereits in den Händen der vierten Generation und soll mit seinem einzigartigen und schicken Konzept die Werte und Besonderheiten der angebotenen Marken unterstreichen. Wichtig ist es uns, einen guten Service zu bieten, den freundlichen Umgang mit unseren Kunden zu fördern und die Leidenschaft, mit der wir das Unternehmen führen, in unseren Aktivitäten herüberzubringen.
-				</p>
+				<p>L'entreprise, aujourd'hui en main de la 4ème génération, a pour objectif de proposer, dans une atmosphère sobre et cosmopolite, des marques qui illustrent des valeurs et des styles de vie. Le service, le contact humain, la passion sont les valeurs qui nous animent et que nous aimons transmettre.</p>
 			</div>
+
 		</div>
 </div>
 </section>
 <!-- SECTION About -->
+<!-- FOOTER -->
 <footer class="panel" id="copyright">
-	<div class="container">
-		<p>Alle Rechte vorbehalten - Angéloz mode - <?php echo date("Y"); ?> - proudly design and developped by <a href="http://mynameis.ch">mni</a></p>
-	</div>
+<div class="container">
+		<p><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a> · <a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></p>
+		<p>tous droits réservés - Angéloz mode - <?php echo date("Y"); ?> - made with <span class="heart"><i class="fa fa-heart"></i></span> by <a href="http://mynameis.ch" target="_blank">mni</a></p>
+</div>
 </footer>
-<!-- FACEBOOK -->
-
-<div id="facebook"><div class="fb-like" data-href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div><br>
-<img src="../css/img/logo_1906-facebook.png" alt="" />
-</div>
-<!-- other site -->
-<div id="other_site">
-	<a href="http://www.angeloz-mode.ch/" target="_blank"><img src="../css/img/logo_angeloz.jpg" alt="logo 1906" /></a>
-</div>
 
 <!-- Modal for command -->
 
@@ -283,7 +240,7 @@
 		<div class="modal-content">
 				<div class="modal-half">
 					<img src="../img/giftcard/giftcard-command.png" alt="Bons Angéloz et 1906" />
-				<p>*Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec sed odio dui.Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec sed odio dui.Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec sed odio dui.</p>
+				<p>*La carte cadeau est envoyée par lettre RECOMMANDÉE et est valable dans les magasins « Angéloz » à Fribourg, Avry et Bulle ainsi que dans les magasins « 1906 by Angéloz » à Fribourg-Centre et Centre La Tour. Si la carte n'est pas utilisée pendant 36 mois, l'avoir est annulé. Le solde total ou restant n'est pas convertible en espèces. En cas de perte ou de vol, la carte ne sera pas remplacée.</p>
 					
 				</div>
 				<div class="modal-half">
@@ -315,27 +272,45 @@
 			data-dismiss="modal" data-close="X" >&times;</a>
 </section>
 <!-- SCRIPTS -->
-<script src="../js/jquery-1.7.1.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="../js/jquery.angeloz.js"></script>
-<script src="../js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script src="../js/jquery.owl.carousel.min.js" type="text/javascript"></script>
+<script src="../js/jquery.mixitup.js" type="text/javascript"></script>
+<script src="../js/jquery.instafeed.min.js" type="text/javascript"></script>
+<script src="../js/jquery.covervid.min.js" type="text/javascript"></script>
+<script src="../js/jquery.thewall.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('#horizontalTab').easyResponsiveTabs({
-            type: 'default', //Types: default, vertical, accordion           
-            width: 'auto', //auto or any width like 600px
-            fit: true,   // 100% fit in a container
-            closed: false, // Start closed if in accordion view
-           
-            activate: function(event) { // Callback function if tab is switched
-                var $tab = $(this);
-                var $info = $('#tabInfo');
-                var $name = $('span', $info);
-                $name.text($tab.text());
 
-                $info.show();
-            }
-        });
+    $(document).ready(function () {
+    	$('.covervid-video').coverVid(1280, 720);
+		$('.GITheWall').GITheWall({
+			responsive:true,
+		    nextButtonClass: 'fa fa-arrow-right',
+		    prevButtonClass: 'fa fa-arrow-left',
+		    closeButtonClass: 'fa fa-times'
+		});
+		$('#container-brands').mixItUp();
+    	
+    	$(".owl-carousel").owlCarousel({
+		    items:1,
+		    margin:10,
+        	URLhashListener:true,
+        	autoplayHoverPause:true,
+    	    startPosition: 'fribourg',
+       	});
+	    
+	    var feed = new Instafeed({
+	        get: 'user',
+	        userId: 1336494812,
+	        accessToken: '1336494812.467ede5.1b5b527428f0494d873e9eba645907cf',
+	        resolution:'low_resolution',
+	        limit:'10',
+	        template: '<li><img src="{{image}}" /></li>',
+
+	    });
+	    feed.run();
+
     });
 </script>
 

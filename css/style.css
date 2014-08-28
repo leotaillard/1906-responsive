@@ -201,10 +201,6 @@ h2 {
 #intro h1{
 	color: yellow;
 }
-#intro p{
-	font-size: 16px;
-	line-height: 28px;
-}
 @keyframes bounce{ from {bottom: 20px;} 50% {bottom: 25px;} to {bottom: 20px;} }
 #intro .arrow{
 	position: absolute;
@@ -225,9 +221,6 @@ h2 {
 section.panel{
 	min-height: 500px;
 	padding-bottom: 50px;
-}
-section.panel p{
-	margin-bottom: 10px;
 }
 section.panel:nth-child(2n+1){
 background: white;
@@ -251,7 +244,13 @@ nav.nav-mag a{
     display: none;
 }
 
+#jobs{
 
+}
+#jobs h3{
+	text-transform: uppercase;
+	margin: 20px 0;
+}
 
 #aboutus{
 		background: url('../img/aboutus/background.jpg') no-repeat center center fixed; 
@@ -277,9 +276,18 @@ footer#copyright{
 	background: #003552;
 	text-align: center;
 }
+footer p{
+	margin: 0;
+}
+footer a:hover{
+	border: none;
+}
 footer span.heart{
 	color: red;
-	font-size: 20px;
+	font-size: 12px;
+}
+footer span.heart:hover{
+	font-size: 16px;
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {

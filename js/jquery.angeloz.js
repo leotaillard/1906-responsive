@@ -46,6 +46,11 @@ $(function() {
 		});
 		
 
+		// 100%
+		var window_size = $(window).height();
+		var header_size = $("#header").height();
+		$("#intro").css('min-height', (window_size-header_size));
+
 		//brands
 		var brands = "data/data-brands.json";
 

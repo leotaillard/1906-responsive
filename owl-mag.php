@@ -1,70 +1,37 @@
-	<nav class="nav-mag">
-		<a class="button secondary url" href="#fribourg">Fribourg</a>
-		<a class="button secondary url" href="#Latour">La Tour-de-Trême</a>
-		<br class="clear">
-	</nav>
-	<div class="owl-carousel ">
-		<div class="item" data-hash="Fribourg">
-			<div class="sixteen columns clearfix">
-				<div class="seven columns alpha txt-align-right">
-				    <p>
-					<span>Horaire</span><br>
-					<span>Lu/Mo</span>	8h30-19h00<br>
-					<span>Ma/Di</span>	8h30-19h00<br>
-					<span>Me/Mi</span>	8h30-19h00<br>
-					<span>Je/Do</span>	8h30-21h00<br>
-					<span>Ve/Fr</span>	8h30-19h00<br>
-					<span>Sa/Sa</span>	8h00-16h00<br><br>
-					Fribourg<br>
-					1906 by Angéloz<br>
-					Fribourg Centre<br>
-					1701 Fribourg<br>
-					tél. +41 (0)26 341 00 41<br>
-					fax +41 (0)26 469 77 88<br>
-					email : <a href="mailto:office@angeloz-mode.ch">office@angeloz-mode.ch</a>
-				</p>
+    <div class="GITheWall clearfix">
+      <ul>
+        <li data-contenttype="image" data-href="img/mag/1906-FRIBOURG/1906-Fribourg-1.jpg">
+          <img src="img/mag/mini/mini-fribourg-1.jpg" />
+        </li>
+        <li data-contenttype="ajax" data-href="ajax-contents/horaire-fribourg.html">
+          <img src="img/mag/mini/horaire-fribourg.jpg" />
+        </li>
+        <li data-contenttype="image" data-href="img/mag/1906-FRIBOURG/1906-Fribourg-2.jpg">
+          <img src="img/mag/mini/mini-fribourg-2.jpg" />
+        </li>
+        <li data-contenttype="ajax" data-href="ajax-contents/contact-fribourg.html">
+          <img src="img/mag/mini/contact-fribourg.jpg" />
+        </li>
 
-				</div>
-				<div class="nine columns omega">
-				     <div class="row">
-						<div class="three columns alpha"><img src="http://placehold.it/480x320" alt="480x320"></div>
-						<div class="three columns"><img src="http://placehold.it/480x320" alt="480x320"></div>
-						<div class="three columns omega"><img src="http://placehold.it/480x320" alt="480x320"></div>
-					</div>
-				</div>
+        <li data-contenttype="image" data-href="img/mag/1906-FRIBOURG/1906-Fribourg-3.jpg">
+          <img src="img/mag/mini/mini-fribourg-3.jpg" />
+        </li>
+        <li data-contenttype="image" data-href="img/mag/1906-LATOUR/1906-LaTour-1.jpg">
+          <img src="img/mag/mini/mini-latour-1.jpg" />
+        </li>
+                <li data-contenttype="ajax" data-href="ajax-contents/contact-latour.html">
+          <img src="img/mag/mini/contact-latour.jpg" />
+        </li>
 
+        <li data-contenttype="image" data-href="img/mag/1906-LATOUR/1906-LaTour-2.jpg">
+          <img src="img/mag/mini/mini-latour-2.jpg" />
+        </li>
 
-			</div>
-		</div>
-		<div class="item" data-hash="Latour">
-			<div class="sixteen columns clearfix">
-				<div class="seven columns alpha txt-align-right">
-			    <p>
-					<span>Horaire</span><br />
-					<span>Lu/Mo</span>	8h00-19h00<br />
-					<span>Ma/Di</span>	8h00-19h00<br />
-					<span>Me/Mi</span>	8h00-19h00<br />
-					<span>Je/Do</span>	8h00-21h00<br />
-					<span>Ve/Fr</span>	8h00-19h00<br />
-					<span>Sa/Sa</span>	8h00-16h00<br /><br />
-					<span>Centre La Tour</span><br />
-					Angéloz Mode<br />
-					Route de Pra-Riond 2<br />
-					1635 La Tour-de-Trême<br />
-					tél. +41 (0)26 913 74 60<br />
-					email : <a href="mailto:office@angeloz-mode.ch">office@angeloz-mode.ch</a>
-				</p>
-
-				</div>
-				<div class="nine columns omega">
-				     <div class="row">
-						<div class="three columns alpha"><img src="http://placehold.it/480x320" alt="480x320"></div>
-						<div class="three columns"><img src="http://placehold.it/480x320" alt="480x320"></div>
-						<div class="three columns omega"><img src="http://placehold.it/480x320" alt="480x320"></div>
-					</div>
-				</div>
-
-			</div>
-	</div>
-
-
+        <li data-contenttype="image" data-href="img/mag/1906-LATOUR/1906-LaTour-3.jpg">
+          <img src="img/mag/mini/mini-latour-3.jpg" />
+        </li>
+        <li data-contenttype="ajax" data-href="ajax-contents/horaire-latour.html">
+          <img src="img/mag/mini/horaire-latour.jpg" />
+        </li>
+      </ul>
+    </div>

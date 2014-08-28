@@ -14,6 +14,9 @@
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/mixitup.css" />
 <link rel="stylesheet" href="css/owl.carousel.css" />
+<link rel="stylesheet" href="css/thewall.css" />
+
+<link rel="stylesheet" href="css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -109,10 +112,9 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="contact">
 	<div class="container">
 		<h2>Magasins</h2>
-		
-		<?php  include('owl-mag.php'); ?>
-
 	</div>
+<?php  include('owl-mag.php'); ?>
+
 </section>
 
 <!-- SECTION BRANDS -->
@@ -195,14 +197,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="jobs">
 	<div class="container">
 		<h2>Jobs</h2>
-		 <div class="sixteen columns clearfix">
-			<div class="eight columns alpha container-img">
-				<img src="img/annonce/annonce_1906_fr_gest.jpg" alt="Annonce de jobs" />
-			</div>
-			<div class="eight columns omega container-img">
-				<img src="img/annonce/annonce_1906_fr_cons.jpg" alt="Annonce de jobs" />
-			</div>
-		</div>
+		<?php include('jobs.php'); ?>
 </div>
 </section>
 <!-- SECTION About -->
@@ -229,7 +224,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- FOOTER -->
 <footer class="panel" id="copyright">
 <div class="container">
-		<p>tous droits réservés - Angéloz mode - <?php echo date("Y"); ?> - made with <span class="heart">❤</span> by <a href="http://mynameis.ch" target="_blank">mni</a></p>
+		<p><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a> · <a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></p>
+		<p>tous droits réservés - Angéloz mode - <?php echo date("Y"); ?> - made with <span class="heart"><i class="fa fa-heart"></i></span> by <a href="http://mynameis.ch" target="_blank">mni</a></p>
 </div>
 </footer>
 
@@ -278,19 +274,25 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			data-dismiss="modal" data-close="X" >&times;</a>
 </section>
 <!-- SCRIPTS -->
-<script src="js/jquery-1.7.1.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="js/jquery.angeloz.js"></script>
 <script src="js/jquery.owl.carousel.min.js" type="text/javascript"></script>
 <script src="js/jquery.mixitup.js" type="text/javascript"></script>
 <script src="js/jquery.instafeed.min.js" type="text/javascript"></script>
 <script src="js/jquery.covervid.min.js" type="text/javascript"></script>
+<script src="js/jquery.thewall.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 
     $(document).ready(function () {
     	$('.covervid-video').coverVid(1280, 720);
-
-$('#container-brands').mixItUp();
+		$('.GITheWall').GITheWall({
+			responsive:true,
+		    nextButtonClass: 'fa fa-arrow-right',
+		    prevButtonClass: 'fa fa-arrow-left',
+		    closeButtonClass: 'fa fa-times'
+		});
+		$('#container-brands').mixItUp();
     	
     	$(".owl-carousel").owlCarousel({
 		    items:1,

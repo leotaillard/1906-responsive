@@ -27,6 +27,11 @@ hr {
   height: 0;
 }
 
+p{
+  margin-top: 33px;
+  margin-bottom: 33px;
+  line-height: 25px;
+}
 /* `Headings
 ----------------------------------------------------------------------------------------------------*/
 
@@ -67,8 +72,8 @@ ul {
 
 li {
   margin-left: 0;
-  margin-right: 42px;
-}
+/*  margin-right: 42px;
+*/}
 
 p,
 dl,
