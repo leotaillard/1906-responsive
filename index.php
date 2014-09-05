@@ -94,8 +94,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 	<div class="covervid-wrapper">
     <video class="covervid-video" autoplay loop poster="img/intro/intro.jpg">
-        <source src="video/video.webm" type="video/webm">
-        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/AMBIANCE-1906.webmhd.webm" type="video/webm">
+        <source src="video/AMBIANCE-1906.mp4.mp4" type="video/mp4">
     </video>
 </div>
 </section>

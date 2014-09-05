@@ -59,7 +59,7 @@ $(function() {
 				function(data) {
 					$(data).each( function(index){
 						var idBrands = this.marque.replace(/ /g,'');
-
+						var nameBrands = this.marque.replace(/ /g,'-').replace("'",'-');
 						var newDiv = $('<div/>', {
 							id: idBrands,
 						});
@@ -82,7 +82,7 @@ $(function() {
 
 
 						var newImg = $(('<img />'),{
-							src:'img/brands/jackjones.svg',
+							src:'img/brands/'+nameBrands+'.svgz',
 							alt:this.marque
 						});
 

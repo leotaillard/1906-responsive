@@ -20,8 +20,13 @@
 
 #container-brands .mix{
 	display: none;
-	min-height: 100px;
 	margin-bottom: 10px;
+	position: relative;
+}
+#container-brands .mix h3{
+	font-size: 12px;
+	text-align: center;
+	background: green;
 }
 #container-brands .mix a:hover{
 	border: none;
