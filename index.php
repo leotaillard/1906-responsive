@@ -91,7 +91,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		</div>
 	</div>
 	<div class="arrow"><a href="#trends">▿</a></div>
-
+	<div class="overlay"></div>
 	<div class="covervid-wrapper">
     <video class="covervid-video" autoplay loop poster="img/intro/intro.jpg">
         <source src="video/AMBIANCE-1906.webmhd.webm" type="video/webm">
@@ -130,6 +130,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<div class="clear"></div>
 		</nav>
 		<div id="container-brands" class="container">
+			<?php include("brands.php"); ?>
 		</div>
 	</div>
 </section>
@@ -140,17 +141,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		 <div class="sixteen columns clearfix">
 			<!-- In nested columns give the first column a class of alpha
 			and the second a class of omega -->
-			<div class="six columns alpha txt-align-right">
-			    <p>
-					P. ex : 500 CHF d'achats en 12 mois.<br />
-					Vous receveez un bon de fidélité de <b>50 CHF</b>
-				</p>
-				<p>
-					750 CHF d'achats en 12 mois.<br />
-					Vous recevez un bon de fidélité de <b>75 CHF</b>
-				</p>
-			</div>
-			<div class="ten columns omega">
+
+			<div class="ten columns alpha txt-align-right">
 			  <h3>Bons Fidélité</h3>
 			    <p>
 			    	Dès un cumul de 500.- d'achats (max 12 mois)*, un bon cadeau d'une valeur de 10% de ce montant vous est envoyé.
@@ -170,6 +162,16 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			    <h3>Echange-Retour achats</h3>
 			      <p>
 			Retournez vos achats dans les 3 jours et nous vous les rembourserons sous forme de bons d'achat. Vos achats ne peuvent être acceptés qu'avec la quittance et dans l'état d'origine.
+				</p>
+			</div>
+			<div class="six columns omega">
+			    <p>
+					P. ex : 500 CHF d'achats en 12 mois.<br />
+					Vous receveez un bon de fidélité de <b>50 CHF</b>
+				</p>
+				<p>
+					750 CHF d'achats en 12 mois.<br />
+					Vous recevez un bon de fidélité de <b>75 CHF</b>
 				</p>
 			</div>
 		</div>
@@ -275,6 +277,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </section>
 <!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-1.8.3.js"></script>
+
 <script src="js/jquery.angeloz.js"></script>
 <script src="js/jquery.owl.carousel.min.js" type="text/javascript"></script>
 <script src="js/jquery.mixitup.js" type="text/javascript"></script>

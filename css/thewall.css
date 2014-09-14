@@ -199,3 +199,13 @@
     box-shadow: 0 0 1px #cccccc, 15px 30px 1px #dddddd, -15px 30px 1px #cccccc;
   }
 }
+
+@media only screen and (max-width: 780px) {
+
+.GITheWall ul li {
+  float: left;
+  width: 50%;
+}
+
+
+}

@@ -52,52 +52,52 @@ $(function() {
 		$("#intro").css('min-height', (window_size-header_size));
 
 		//brands
-		var brands = "data/data-brands.json";
+		// var brands = "data/data-brands.json";
 
-			$.getJSON(brands,
-				{},
-				function(data) {
-					$(data).each( function(index){
-						var idBrands = this.marque.replace(/ /g,'');
-						var nameBrands = this.marque.replace(/ /g,'-').replace("'",'-');
-						var newDiv = $('<div/>', {
-							id: idBrands,
-						});
+		// 	$.getJSON(brands,
+		// 		{},
+		// 		function(data) {
+		// 			$(data).each( function(index){
+		// 				var idBrands = this.marque.replace(/ /g,'');
+		// 				var nameBrands = this.marque.replace(/ /g,'-').replace("'",'-');
+		// 				var newDiv = $('<div/>', {
+		// 					id: idBrands,
+		// 				});
 
-						newDiv.addClass('mix two columns');
+		// 				newDiv.addClass('mix two columns');
 
-						if (this.Women == 'true') {
-							newDiv.addClass('woman');
-						};
-						if (this.Men == 'true') {
-							newDiv.addClass('man');
-						};
-						if (this.FribourgCentre == 'true') {
-							newDiv.addClass('fribourg');
-						};
-						if (this.LaTour == 'true') {
-							newDiv.addClass('laTour');
-						};
+		// 				if (this.Women == 'true') {
+		// 					newDiv.addClass('woman');
+		// 				};
+		// 				if (this.Men == 'true') {
+		// 					newDiv.addClass('man');
+		// 				};
+		// 				if (this.FribourgCentre == 'true') {
+		// 					newDiv.addClass('fribourg');
+		// 				};
+		// 				if (this.LaTour == 'true') {
+		// 					newDiv.addClass('laTour');
+		// 				};
 
 
 
-						var newImg = $(('<img />'),{
-							src:'img/brands/'+nameBrands+'.svgz',
-							alt:this.marque
-						});
+		// 				var newImg = $(('<img />'),{
+		// 					src:'img/brands/'+nameBrands+'.svgz',
+		// 					alt:this.marque
+		// 				});
 
-						var newH3 = $('<h3 />').html(this.marque);
-						newDiv.append(newImg);
-						newDiv.append(newH3);
+		// 				var newH3 = $('<h3 />').html(this.marque);
+		// 				newDiv.append(newImg);
+		// 				newDiv.append(newH3);
 						
-						if (this.FribourgCentre == 'true' || this.LaTour == 'true') {
-							$("#container-brands").append(newDiv);
+		// 				if (this.FribourgCentre == 'true' || this.LaTour == 'true') {
+		// 					$("#container-brands").append(newDiv);
 						
-						};
-					} );
+		// 				};
+		// 			} );
 
 
-				});
+		// 		});
 });
 
 $(window).scroll(function() {    
@@ -110,3 +110,5 @@ $(window).scroll(function() {
 
     }
 });
+
+
