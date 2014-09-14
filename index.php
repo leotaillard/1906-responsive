@@ -104,7 +104,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<ul id="instafeed" class="clearfix"></ul>
 	<div class="container">
 		<h2>trends</h2>
-<div data-configid="7214851/9198009" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+		<div data-configid="7214851/9198009" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	</div>
 </section>
 
 <!-- SECTION MAGASIN -->

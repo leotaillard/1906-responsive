@@ -138,19 +138,11 @@ foreach ($brands as $key => $value) {
 ?>'>
 
 <?php $imgName = str_replace(' ', '-',$value['marque']); ?>
-<?php $imgName = removeAccents($imgName); ?>
+<?php $imgName = strtoupper($imgName); ?>
 
-	<img src="img/brands/<?php echo $imgName; ?>.svgz" alt="Blonde no 8">
+  <img src="img/brands/<?php echo $imgName; ?>.svgz" alt="<?php echo $value['marque']; ?>">
  	<h3><?php echo $value['marque']; ?></h3>
 </div>
 <?php
 }
 ?>
-
-
-<!-- 
-<div id="Blondeno8" class="mix two columns woman fribourg" style="display: inline-block;">
-	<img src="img/brands/Blonde-no-8.svgz" alt="Blonde no 8">
- 	<?php include("img/brands/7-FOR-ALL-MANKIND.svgz"); ?>
- 	<h3>7 FOR ALL MANKIND</h3>
-</div> -->
