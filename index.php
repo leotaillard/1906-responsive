@@ -278,18 +278,21 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </section>
 <!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="js/jquery-1.8.3.js"></script>
-
-<script src="js/jquery.angeloz.js"></script>
-<script src="js/jquery.owl.carousel.min.js" type="text/javascript"></script>
-<script src="js/jquery.mixitup.js" type="text/javascript"></script>
-<script src="js/jquery.instafeed.min.js" type="text/javascript"></script>
-<script src="js/jquery.covervid.min.js" type="text/javascript"></script>
-<script src="js/jquery.thewall.js" type="text/javascript"></script>
+<script src="js/min/jquery.interaction-ck.js"></script>
 
 <script type="text/javascript">
 
     $(document).ready(function () {
+  	    $("html").queryLoader2({
+	        barColor: "#fff",
+	        backgroundColor: "#003552",
+	        // percentage: true,
+	        barHeight: 3,
+	        completeAnimation: "grow",
+	        minimumTime: 1000,
+	        deepSearch:true,
+	    });
+
     	$('.covervid-video').coverVid(1280, 720);
 		$('.GITheWall').GITheWall({
 			responsive:true,

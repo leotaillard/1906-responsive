@@ -25,7 +25,6 @@
 			element.attachEvent('on' + event, callback);
 		}
 	};
-
 	// Hide overlay when ESC is pressed
 	modal._addEventListener(document, 'keyup', function (event) {
 		var hash = window.location.hash.replace('#', '');
