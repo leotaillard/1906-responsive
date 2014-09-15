@@ -93,7 +93,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="arrow"><a href="#trends">▿</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
-    <video class="covervid-video" autoplay loop poster="img/intro/intro.jpg">
+    <video class="covervid-video" autoplay poster="img/intro/intro.jpg">
         <source src="video/AMBIANCE-1906.webmhd.webm" type="video/webm">
         <source src="video/AMBIANCE-1906.mp4.mp4" type="video/mp4">
     </video>
@@ -311,7 +311,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	        get: 'user',
 	        userId: 1336494812,
 	        accessToken: '1336494812.467ede5.1b5b527428f0494d873e9eba645907cf',
-	        resolution:'low_resolution',
+	        resolution:'standard_resolution',
 	        limit:'10',
 	        template: '<li><img src="{{image}}" /></li>',
 

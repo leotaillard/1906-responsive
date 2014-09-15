@@ -231,7 +231,7 @@ section.panel{
 	min-height: 500px;
 	padding-bottom: 50px;
 }
-section.panel:nth-child(2n+1){
+section.panel:nth-child(2n+2){
 background: white;
 }
 
