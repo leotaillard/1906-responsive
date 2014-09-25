@@ -233,7 +233,6 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </footer>
 
 <!-- Modal for command -->
-
 <section class="semantic-content" id="modal-text"
 		tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
 
@@ -245,38 +244,38 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		<div class="modal-content">
 				<div class="modal-half">
 					<img src="img/giftcard/giftcard-command.png" alt="Bons Angéloz et 1906" />
-				<p>*La carte cadeau est envoyée par lettre RECOMMANDÉE et est valable dans les magasins « Angéloz » à Fribourg, Avry et Bulle ainsi que dans les magasins « 1906 by Angéloz » à Fribourg-Centre et Centre La Tour. Si la carte n'est pas utilisée pendant 36 mois, l'avoir est annulé. Le solde total ou restant n'est pas convertible en espèces. En cas de perte ou de vol, la carte ne sera pas remplacée.</p>
-					
 				</div>
 				<div class="modal-half">
-					<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="26N54SV2UT6E6">
+					<input type="hidden" name="hosted_button_id" value="QEX6QBU4TEFKS">
 					<table>
 					<tr><td><input type="hidden" name="on0" value="Montant">Montant</td></tr><tr><td><select name="os0">
-						<option value="-">- 50.00 CHF</option>
-						<option value="-">- 100.00 CHF</option>
-						<option value="-">- 200.00 CHF</option>
+						<option value="Montant 50 Chfs -">Montant 50 Chfs - 50.00 CHF</option>
+						<option value="Montant 100 Chfs -">Montant 100 Chfs - 100.00 CHF</option>
+						<option value="Montant 200 Chfs -">Montant 200 Chfs - 200.00 CHF</option>
+						<option value="Montant 500 Chfs -">Montant 500 Chfs - 500.00 CHF</option>
 					</select> </td></tr>
-					<tr><td><input type="hidden" name="on1" value="Carte">Carte</td></tr><tr><td><select name="os1">
-						<option value="Angéloz">Angéloz </option>
+					<tr><td><input type="hidden" name="on1" value="Design">Design</td></tr><tr><td><select name="os1">
+						<option value="Angéloz Mode">Angéloz Mode </option>
 						<option value="1906">1906 </option>
 					</select> </td></tr>
 					</table>
 					<input type="hidden" name="currency_code" value="CHF">
-					<input type="image" src="https://www.sandbox.paypal.com/fr_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-					<img alt="" border="0" src="https://www.sandbox.paypal.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
+					<input type="image" src="https://www.paypalobjects.com/fr_FR/CH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+					<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
 					</form>
+					
 				</div>
+				<p>La carte cadeau est envoyée par lettre RECOMMANDÉE et est valable dans les magasins « Angéloz » à Fribourg, Avry et Bulle ainsi que dans les magasins « 1906 by Angéloz » à Fribourg-Centre et Centre La Tour. Si la carte n'est pas utilisée pendant 36 mois, l'avoir est annulé. Le solde total ou restant n'est pas convertible en espèces. En cas de perte ou de vol, la carte ne sera pas remplacée.</p>
 		</div>
 
 	</div>
 
 	<!-- Use Hash-Bang to maintain scroll position when closing modal -->
 	<a href="#!" class="modal-close" title="Close this modal"
-			data-dismiss="modal" data-close="X" >&times;</a>
-</section>
-<!-- SCRIPTS -->
+			data-dismiss="modal">&times;</a>
+</section><!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="js/min/jquery.interaction-ck.js"></script>
 

@@ -267,50 +267,48 @@
 </div>
 
 <!-- Modal for command -->
-
 <section class="semantic-content" id="modal-text"
 		tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
 
 	<div class="modal-inner">
 		<div class="header">
-			<h2 id="modal-label">Commande de bons Angéloz et 1906 en ligne</h2>
+			<h2 id="modal-label">Bestellen Sie Online-Gutschein</h2>
 		</div>
 
 		<div class="modal-content">
 				<div class="modal-half">
 					<img src="../img/giftcard/giftcard-command.png" alt="Bons Angéloz et 1906" />
-				<p>*Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec sed odio dui.Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec sed odio dui.Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec sed odio dui.</p>
-					
 				</div>
 				<div class="modal-half">
-					<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="26N54SV2UT6E6">
-					<table>
-					<tr><td><input type="hidden" name="on0" value="Montant">Montant</td></tr><tr><td><select name="os0">
-						<option value="-">- 50.00 CHF</option>
-						<option value="-">- 100.00 CHF</option>
-						<option value="-">- 200.00 CHF</option>
-					</select> </td></tr>
-					<tr><td><input type="hidden" name="on1" value="Carte">Carte</td></tr><tr><td><select name="os1">
-						<option value="Angéloz">Angéloz </option>
-						<option value="1906">1906 </option>
-					</select> </td></tr>
-					</table>
-					<input type="hidden" name="currency_code" value="CHF">
-					<input type="image" src="https://www.sandbox.paypal.com/fr_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-					<img alt="" border="0" src="https://www.sandbox.paypal.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
-					</form>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PU3RN4F35BEAU">
+<table>
+<tr><td><input type="hidden" name="on0" value="Betrag">Betrag</td></tr><tr><td><select name="os0">
+	<option value="50 Chfs Betrag -">50 Chfs Betrag - 50.00 CHF</option>
+	<option value="100 Chfs Betrag -">100 Chfs Betrag - 100.00 CHF</option>
+	<option value="200 Chfs Betrag -">200 Chfs Betrag - 200.00 CHF</option>
+	<option value="500 Chfs Betrag -">500 Chfs Betrag - 500.00 CHF</option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="Design">Design</td></tr><tr><td><select name="os1">
+	<option value="Angéloz Mode">Angéloz Mode </option>
+	<option value="1906">1906 </option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="CHF">
+<input type="image" src="https://www.paypalobjects.com/de_DE/CH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
 				</div>
+				<p>Die Giftcard wird per Einschreiben verschickt und ist in allen « Angéloz » Filialen in Fribourg, Bulle und Avry und in den "1906 by Angéloz" Filialen im Fribourg-Centre und Centre La Tour einsetzbar. Wird die 	Karte 36 Monate nicht genutzt, verfällt das Guthaben. Keine Barauszahlung des Gesamtbetrages oder Restsaldos möglich. Die Karte wird bei Verlust oder Diebstahl nicht ersetzt.</p>
 		</div>
 
 	</div>
 
 	<!-- Use Hash-Bang to maintain scroll position when closing modal -->
 	<a href="#!" class="modal-close" title="Close this modal"
-			data-dismiss="modal" data-close="X" >&times;</a>
-</section>
-<!-- SCRIPTS -->
+			data-dismiss="modal">&times;</a>
+</section><!-- SCRIPTS -->
 <script src="../js/jquery-1.7.1.js"></script>
 <script src="../js/jquery.angeloz.js"></script>
 <script src="../js/easyResponsiveTabs.js" type="text/javascript"></script>
