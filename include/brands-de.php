@@ -140,7 +140,7 @@ foreach ($brands as $key => $value) {
 <?php $imgName = str_replace(' ', '-',$value['marque']); ?>
 <?php $imgName = strtoupper($imgName); ?>
 
-  <img src="img/brands/<?php echo $imgName; ?>.svgz" alt="<?php echo $value['marque']; ?>">
+  <img src="../img/brands/<?php echo $imgName; ?>.svg" alt="<?php echo $value['marque']; ?>">
  	<h3><?php echo $value['marque']; ?></h3>
 </div>
 <?php

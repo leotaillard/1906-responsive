@@ -113,7 +113,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="container">
 		<h2>Magasins</h2>
 	</div>
-<?php  include('owl-mag.php'); ?>
+<?php  include('include/mag-fr.php'); ?>
 
 </section>
 
@@ -131,7 +131,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<div class="clear"></div>
 		</nav>
 		<div id="container-brands" class="container">
-			<?php include("brands.php"); ?>
+			<?php include("include/brands-fr.php"); ?>
 		</div>
 	</div>
 </section>
@@ -199,7 +199,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="jobs">
 	<div class="container">
 		<h2>Jobs</h2>
-		<?php include('jobs.php'); ?>
+		<?php include('include/jobs-fr.php'); ?>
 </div>
 </section>
 <!-- SECTION About -->

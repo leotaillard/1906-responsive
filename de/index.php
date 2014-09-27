@@ -110,7 +110,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 	<div class="container">
 		<h2>Geschäfte</h2>
 	</div>
-<?php  include('../magasins-de.php'); ?>
+<?php  include('../include/mag-de.php'); ?>
 
 </section>
 
@@ -128,7 +128,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 			<div class="clear"></div>
 		</nav>
 		<div id="container-brands" class="container">
-			<?php include("../brands-de.php"); ?>
+			<?php include("../include/brands-de.php"); ?>
 		</div>
 	</div>
 </section>
@@ -194,7 +194,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 <section class="panel" id="jobs">
 	<div class="container">
 		<h2>Jobs</h2>
-		<?php include('../jobs-de.php'); ?>
+		<?php include('../include/jobs-de.php'); ?>
 </div>
 </section>
 <!-- SECTION About -->
