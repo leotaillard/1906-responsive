@@ -160,7 +160,7 @@ h2 {
 #langue{
 	font-style: italic;
 	font-size: 10px;
-	padding-top: 22px;
+	padding-top: 20px;
 	list-style: none;
 	height: 50px;
 	text-align: right;
@@ -173,7 +173,7 @@ h2 {
 }
 #menu ul{
 	min-height: 30px;
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: uppercase;
 	padding: 16px 0 0 10px;
 }

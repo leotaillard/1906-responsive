@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="css/mixitup.css" />
 <link rel="stylesheet" href="css/owl.carousel.css" />
 <link rel="stylesheet" href="css/thewall.css" />
+<link rel="stylesheet" href="css/magnific-popup.css"> 
 
 <link rel="stylesheet" href="css/font-awesome.min.css" />
 
@@ -65,6 +66,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<li><a href="#giftcard">Giftcard</a></li>
 			<li><a href="#jobs">Jobs</a></li>
 			<li><a href="#aboutus">About us</a></li>
+			<li><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></li>
 			</ul>
 			<ul class="ipad" id="langue-hidden">
 				<li><a href="de">Deutsch</a></li>
@@ -113,7 +116,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="container">
 		<h2>Magasins</h2>
 	</div>
-<?php  include('include/mag-fr.php'); ?>
+<?php  include('include/mag-lightbox.php'); ?>
 
 </section>
 
@@ -278,7 +281,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </section><!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="js/min/jquery.interaction-ck.js"></script>
-
+<script src="js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript">
 
     $(document).ready(function () {
@@ -291,34 +294,44 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	        minimumTime: 1000,
 	        deepSearch:true,
 	    });
-
-    	$('.covervid-video').coverVid(1280, 720);
-		$('.GITheWall').GITheWall({
-			responsive:true,
-		    nextButtonClass: 'fa fa-arrow-right',
-		    prevButtonClass: 'fa fa-arrow-left',
-		    closeButtonClass: 'fa fa-times'
-		});
-		$('#container-brands').mixItUp();
-    	
-    	$(".owl-carousel").owlCarousel({
-		    items:1,
-		    margin:10,
-        	URLhashListener:true,
-        	autoplayHoverPause:true,
-    	    startPosition: 'fribourg',
-       	});
-	    
 	    var feed = new Instafeed({
 	        get: 'user',
 	        userId: 1336494812,
 	        accessToken: '1336494812.467ede5.1b5b527428f0494d873e9eba645907cf',
 	        resolution:'standard_resolution',
 	        limit:'10',
-	        template: '<li><img src="{{image}}" /></li>',
+	        template: '<li><a class="image-link" href="{{image}}"><img src="{{image}}" /></a></li>',
+	        after: function(){
+	        			$('.image-link').magnificPopup(
+			{
+				type:'image',
+				tClose: 'Fermer (Esc)',
+				tLoading: 'Chargement...',
+				gallery: 
+					{
+						tPrev: 'Précédent',
+						tNext: 'Suivant',
+						tCounter: '%curr% de %total%',
+						enabled:true
+	  				}
+	  		
+			});	    
+		$('.ajax-popup-link').magnificPopup({
+		  type: 'ajax'
+		});
+
+
+	        	
+	        }
 
 	    });
 	    feed.run();
+
+    	$('.covervid-video').coverVid(1280, 720);
+
+		$('#container-brands').mixItUp();
+    	
+	    
 
     });
 </script>
