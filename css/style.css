@@ -92,10 +92,11 @@ a.button-intro:hover,#intro a.button:hover{
 .clear{
 	clear: both;
 }
-#brands svg{
+/*#brands svg{
 	width: 100px;
 	height: 100px;
-}
+}*/
+.svg:hover svg path, .svg:hover svg polygon,.svg:hover svg rect{fill: rgba(0,53,82,0.1) !important;stroke-width:0;}
 .txt-align-right{
 	text-align: right;
 }

@@ -1,5 +1,5 @@
     <div class="GITheWall clearfix">
-      <ul>
+      <ul class="gallery clearfix">
         <!-- ICI C'EST FRIBOURG -->
         <li class="ajax-popup-link" href="ajax-contents/horaire-fribourg.html">
           <img src="img/mag/mini/horaire-fribourg.jpg" alt="horaire fribourg"/>

@@ -104,7 +104,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </section>
 <!-- SECTION TRENDS -->
 <section class="panel" id="trends">
-	<ul id="instafeed" class="clearfix"></ul>
+	<ul id="instafeed" class="gallery clearfix"></ul>
 	<div class="container">
 		<h2>trends</h2>
 		<div data-configid="7214851/9198009" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
@@ -302,28 +302,24 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	        limit:'10',
 	        template: '<li><a class="image-link" href="{{image}}"><img src="{{image}}" /></a></li>',
 	        after: function(){
-	        			$('.image-link').magnificPopup(
-			{
-				type:'image',
-				tClose: 'Fermer (Esc)',
-				tLoading: 'Chargement...',
-				gallery: 
-					{
-						tPrev: 'Précédent',
-						tNext: 'Suivant',
-						tCounter: '%curr% de %total%',
-						enabled:true
-	  				}
-	  		
-			});	    
-		$('.ajax-popup-link').magnificPopup({
-		  type: 'ajax'
-		});
-
-
-	        	
+				$('.gallery').each(function() { // the containers for all your galleries
+				    $(this).magnificPopup({
+				        delegate: '.image-link', // the selector for gallery item
+				        type: 'image',
+        				tClose: 'Fermer (Esc)',
+						tLoading: 'Chargement...',
+				        gallery: {
+					       	tPrev: 'Précédent',
+							tNext: 'Suivant',
+							tCounter: '%curr% de %total%',
+					        enabled:true
+				        }
+				    });
+				});    
+				$('.ajax-popup-link').magnificPopup({
+					type: 'ajax'
+				});
 	        }
-
 	    });
 	    feed.run();
 
@@ -331,7 +327,37 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 		$('#container-brands').mixItUp();
     	
-	    
+	    $(function(){
+    jQuery('.svg img').each(function(){
+        var $img = jQuery(this);
+        var imgID = $img.attr('id');
+        var imgClass = $img.attr('class');
+        var imgURL = $img.attr('src');
+    
+        jQuery.get(imgURL, function(data) {
+            // Get the SVG tag, ignore the rest
+            var $svg = jQuery(data).find('svg');
+    
+            // Add replaced image's ID to the new SVG
+            if(typeof imgID !== 'undefined') {
+                $svg = $svg.attr('id', imgID);
+            }
+            // Add replaced image's classes to the new SVG
+            if(typeof imgClass !== 'undefined') {
+                $svg = $svg.attr('class', imgClass+' replaced-svg');
+            }
+    
+            // Remove any invalid XML tags as per http://validator.w3.org
+            $svg = $svg.removeAttr('xmlns:a');
+    
+            // Replace image with new SVG
+            $img.replaceWith($svg);
+    
+        }, 'xml');
+    
+    });
+});
+
 
     });
 </script>
