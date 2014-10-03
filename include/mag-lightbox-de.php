@@ -1,5 +1,4 @@
-    <div class="GITheWall clearfix">
-      <ul class="gallery clearfix">
+      <ul class="gallery-mag gallery clearfix">
         <!-- ICI C'EST FRIBOURG -->
         <li class="ajax-popup-link" href="../ajax-contents/offnungszeit-fribourg.html">
           <img src="../img/mag/mini/offnungszeit-fribourg.jpg" alt="offnungszeit fribourg"/>
@@ -18,6 +17,8 @@
           <li class="ajax-popup-link" href="../ajax-contents/kontakt-fribourg.html">
           <img src="../img/mag/mini/kontakt-fribourg.jpg" alt="kontakt fribourg" />
         </li>
+      </ul>
+      <ul class="gallery-mag gallery clearfix">
 
                 <!-- ICI C'EST LaTour -->
         <li class="ajax-popup-link" href="../ajax-contents/kontakt-latour.html">

@@ -372,6 +372,14 @@ footer span.heart:hover{
 	.ipad{
 		display: inline-block;
 	}
+div.eight.columns.omega.container-img{border-top: 2px dotted #003552;}
+.gallery-mag {padding: 0;}
+.gallery-mag li {
+  width: 50%;
+}
+.txt-align-right{
+	text-align: left;
+}
 
 }
 @media only screen and (max-width: 1159px) {

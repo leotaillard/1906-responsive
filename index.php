@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/mixitup.css" />
 <link rel="stylesheet" href="css/owl.carousel.css" />
-<link rel="stylesheet" href="css/thewall.css" />
 <link rel="stylesheet" href="css/magnific-popup.css"> 
 
 <link rel="stylesheet" href="css/font-awesome.min.css" />

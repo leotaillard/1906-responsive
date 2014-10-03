@@ -68,7 +68,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 
 			</ul>
 			<ul class="ipad" id="langue-hidden">
-				<li><a href="de">Französich</a></li>
+				<li><a href="../">Français</a></li>
 			</ul>
 	</nav>
 	
@@ -302,12 +302,12 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 				    $(this).magnificPopup({
 				        delegate: '.image-link', // the selector for gallery item
 				        type: 'image',
-        				tClose: 'Fermer (Esc)',
-						tLoading: 'Chargement...',
+        				tClose: 'schließen Sie herauf (Esc)',
+						tLoading: 'Loading...',
 				        gallery: {
-					       	tPrev: 'Précédent',
-							tNext: 'Suivant',
-							tCounter: '%curr% de %total%',
+					       	tPrev: 'früher',
+							tNext: 'nächste',
+							tCounter: '%curr% von %total%',
 					        enabled:true
 				        }
 				    });
