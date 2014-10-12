@@ -29,7 +29,7 @@ $brands = array(
   // array("marque"=>"Closed","woman"=>true,"man"=>false,"fribourg"=>false,"latour"=>false),
   array("marque"=>"Codello","woman"=>true,"man"=>true,"fribourg"=>true,"latour"=>true),
   // array("marque"=>"Comma","woman"=>true,"man"=>false,"fribourg"=>false,"latour"=>false),
-  // array("marque"=>"Custommade","woman"=>true,"man"=>false,"fribourg"=>false,"latour"=>false),
+  array("marque"=>"Custommade","woman"=>true,"man"=>false,"fribourg"=>true,"latour"=>false),
   // array("marque"=>"Diadora","woman"=>false,"man"=>true,"fribourg"=>false,"latour"=>false),
   array("marque"=>"Diesel","woman"=>true,"man"=>true,"fribourg"=>true,"latour"=>false),
   // array("marque"=>"DKNY","woman"=>true,"man"=>false,"fribourg"=>false,"latour"=>false),
@@ -140,7 +140,7 @@ foreach ($brands as $key => $value) {
 <?php $imgName = str_replace(' ', '-',$value['marque']); ?>
 <?php $imgName = strtoupper($imgName); ?>
 
-  <img src="../img/brands/<?php echo $imgName; ?>.svg" alt="<?php echo $value['marque']; ?>">
+  <img src="../img/brands/png/<?php echo $imgName; ?>.png" alt="<?php echo $value['marque']; ?>">
  	<h3><?php echo $value['marque']; ?></h3>
 </div>
 <?php

@@ -17,6 +17,7 @@
           <li class="ajax-popup-link" href="../ajax-contents/kontakt-fribourg.html">
           <img src="../img/mag/mini/kontakt-fribourg.jpg" alt="kontakt fribourg" />
         </li>
+        <li class="image-link invisible" href="../img/mag/1906-FRIBOURG/1906-Fribourg-2.jpg"></li>
       </ul>
       <ul class="gallery-mag gallery clearfix">
 

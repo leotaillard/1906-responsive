@@ -17,6 +17,9 @@ body {
 .ipad{
 	display: none;
 }
+.invisible{
+	display: none;
+}
 img{
 	max-width: 100%;
 }
@@ -181,13 +184,13 @@ h2 {
 #menu ul li {
 	display: inline;
 	margin: 0;
-	padding: 0 15px 0 0;
+	padding: 0 12px 0 0;
 }
 #menu ul li:after {
 	content: "·";
 	color: white;
 	position: absolute;
-	margin-left: 8px;
+	margin-left: 5px;
 }
 #menu ul li:last-child:after {
 	content: "";

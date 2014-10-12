@@ -57,7 +57,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 	<nav id="menu" class="thirteen columns clearfix">
 		<ul>
 			<li><a href="#trends">Trends</a></li>
-			<li><a href="#contact">Geschäfte</a></li>
+			<li><a href="#contact">Geschäfte und Öffnungszeit</a></li>
 			<li><a href="#brands">Brands</a></li>
 			<li><a href="#compte">Finanzielles</a></li>
 			<li><a href="#giftcard">Giftcard</a></li>

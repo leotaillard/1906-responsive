@@ -17,6 +17,8 @@
           <li class="ajax-popup-link" href="ajax-contents/contact-fribourg.html">
           <img src="img/mag/mini/contact-fribourg.jpg" alt="contact fribourg" />
         </li>
+
+        <li class="image-link invisible" href="img/mag/1906-FRIBOURG/1906-Fribourg-2.jpg"></li>
       </ul>
       <ul class="gallery-mag gallery clearfix">
                 <!-- ICI C'EST LaTour -->

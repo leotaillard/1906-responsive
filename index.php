@@ -59,7 +59,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<nav id="menu" class="thirteen columns clearfix">
 		<ul>
 			<li><a href="#trends">Trends</a></li>
-			<li><a href="#contact">Magasins</a></li>
+			<li><a href="#contact">Magasins & horaires</a></li>
 			<li><a href="#brands">Brands</a></li>
 			<li><a href="#compte">Compte Avantages Client</a></li>
 			<li><a href="#giftcard">Giftcard</a></li>
@@ -227,6 +227,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- SECTION About -->
 <!-- FOOTER -->
 <footer class="panel" id="copyright">
+	
 <div class="container">
 		<p class="social"><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a> · <a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></p>
 		<p><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo.png" alt="Logo angéoz"></a></p>
@@ -326,36 +327,36 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 		$('#container-brands').mixItUp();
     	
-	    $(function(){
-    jQuery('.svg img').each(function(){
-        var $img = jQuery(this);
-        var imgID = $img.attr('id');
-        var imgClass = $img.attr('class');
-        var imgURL = $img.attr('src');
+// 	    $(function(){
+//     jQuery('.svg img').each(function(){
+//         var $img = jQuery(this);
+//         var imgID = $img.attr('id');
+//         var imgClass = $img.attr('class');
+//         var imgURL = $img.attr('src');
     
-        jQuery.get(imgURL, function(data) {
-            // Get the SVG tag, ignore the rest
-            var $svg = jQuery(data).find('svg');
+//         jQuery.get(imgURL, function(data) {
+//             // Get the SVG tag, ignore the rest
+//             var $svg = jQuery(data).find('svg');
     
-            // Add replaced image's ID to the new SVG
-            if(typeof imgID !== 'undefined') {
-                $svg = $svg.attr('id', imgID);
-            }
-            // Add replaced image's classes to the new SVG
-            if(typeof imgClass !== 'undefined') {
-                $svg = $svg.attr('class', imgClass+' replaced-svg');
-            }
+//             // Add replaced image's ID to the new SVG
+//             if(typeof imgID !== 'undefined') {
+//                 $svg = $svg.attr('id', imgID);
+//             }
+//             // Add replaced image's classes to the new SVG
+//             if(typeof imgClass !== 'undefined') {
+//                 $svg = $svg.attr('class', imgClass+' replaced-svg');
+//             }
     
-            // Remove any invalid XML tags as per http://validator.w3.org
-            $svg = $svg.removeAttr('xmlns:a');
+//             // Remove any invalid XML tags as per http://validator.w3.org
+//             $svg = $svg.removeAttr('xmlns:a');
     
-            // Replace image with new SVG
-            $img.replaceWith($svg);
+//             // Replace image with new SVG
+//             $img.replaceWith($svg);
     
-        }, 'xml');
+//         }, 'xml');
     
-    });
-});
+//     });
+// });
 
 
     });
