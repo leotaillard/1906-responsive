@@ -13,10 +13,7 @@
 <link rel="stylesheet" href="../css/skeleton.css" />
 <link rel="stylesheet" href="../css/style.css" />
 <link rel="stylesheet" href="../css/mixitup.css" />
-<link rel="stylesheet" href="../css/owl.carousel.css" />
-<link rel="stylesheet" href="../css/thewall.css" />
 <link rel="stylesheet" href="../css/magnific-popup.css"> 
-
 <link rel="stylesheet" href="../css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -30,11 +27,9 @@
 <meta property="og:description" content="For Girls:
 Maison Scotch / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Rich & Royal / French Connection / Vero Moda / Only / Pieces / Campus / Superdry / Adidas / Nike / UGG / and many others
 For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack & Jones / Superdry / Adidas / Nike / Swear / and many others">
-<meta property="og:image" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
-<meta property="og:image:secure_url" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
+<meta property="og:image" content="http://www.1906.ch/css/img/logo_1906.png">
+<meta property="og:image:secure_url" content="http://www.1906.ch/css/img/logo_1906.png">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1500">
-<meta property="og:image:height" content="1500">
 </head>
 <body id="top">
 <div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo_bleu.png" alt="Angeloz"></a></div>
