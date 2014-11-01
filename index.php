@@ -13,7 +13,6 @@
 <link rel="stylesheet" href="css/skeleton.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/mixitup.css" />
-<link rel="stylesheet" href="css/owl.carousel.css" />
 <link rel="stylesheet" href="css/magnific-popup.css"> 
 
 <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -85,14 +84,14 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		<div class="sixteen columns">
 			<h1><img src="css/img/logo-1906.svg" alt="logo angeloz mode" /></h1>
 		</div>
-		<div class="eight columns">
+<!-- 		<div class="eight columns">
 			<a href="#trends" class="button-intro" title="Découvrez nos dernières nouveautés">Découvrez nos dernières nouveautés</a>				
 		</div>
 		<div class="eight columns">
 			<a href="#modal-text" class="button button-intro call-modal" title="Commander un bon en ligne">Commander un bon en ligne</a>				
 		</div>
-	</div>
-	<div class="arrow"><a href="#trends">▿</a></div>
+ -->	</div>
+	<div class="arrow"><a href="#trends">▾</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
     <video class="covervid-video" autoplay poster="img/intro/intro.jpg">
