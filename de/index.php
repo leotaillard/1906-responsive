@@ -114,8 +114,9 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 <section class="panel" id="contact">
 	<div class="container">
 		<h2>Geschäfte</h2>
-	</div>
 <?php  include('../include/mag-lightbox-de.php'); ?>
+
+	</div>
 
 </section>
 

@@ -115,9 +115,11 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="contact">
 	<div class="container">
 		<h2>Magasins</h2>
-	</div>
 
 <?php  include('include/mag-lightbox.php'); ?>
+
+	</div>
+
 </section>
 
 <!-- SECTION BRANDS -->
