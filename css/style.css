@@ -253,7 +253,7 @@ section.panel{
 	min-height: 500px;
 	padding-bottom: 50px;
 }
-section.panel:nth-child(2n+2){
+section.panel:nth-child(2n+1){
 background: white;
 }
 
@@ -319,11 +319,31 @@ footer a:hover{
 footer span.heart{
 	font-size: 12px;
 }
+#contact.panel{
+	text-align: left;
+	color: white;
+	background: #003552;
+}
 .othersite{
 	position: fixed;
 	top: 100px;
 	right: 20px;
 	z-index: 1000;
+}
+
+/* Formualire */
+
+#contact textarea{
+	width: 100%;
+	min-height: 200px;
+	padding:20px;
+}
+#contact input{
+	width: 100%;
+	height: 25px;
+	border: none;
+	background: rgba(255, 255 ,255,1);
+	padding-left: 20px;
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {

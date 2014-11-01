@@ -232,7 +232,48 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- SECTION About -->
 <!-- FOOTER -->
 <footer class="panel" id="copyright">
-	
+<section id="contact" class="panel">
+	<div class="container">
+		<h2>Contact</h2>
+		 <form class="sixteen columns clearfix" action="form.php" method="get">
+			<div class="eight columns alpha">
+		 	<p>
+				 <!-- Label and text input -->
+				<label for="input-name">Prénom :</label></br>
+				<input tabindex="1" type="text" id="input-name" name="name" />
+		 	</p>
+		 	<p>
+				 <!-- Label and text input -->
+				<label for="input-email">Email :</label></br>
+				<input tabindex="3" type="email" id="input-email" name="email" />
+		 	</p>
+
+			</div>
+			<div class="eight columns omega">
+		 	<p>
+				 <!-- Label and text input -->
+				<label for="input-lastname">Nom :</label></br>
+				<input tabindex="2" type="text" id="input-lastname" name="lastname"/>
+		 	</p>
+		 	<p>
+				 <!-- Label and text input -->
+				<label for="input-phone">Téléphone :</label></br>
+				<input tabindex="4" type="text" id="input-phone" name="phone" />
+		 	</p>
+
+			</div>
+			<div class="sixteen columns alpha clearfix">
+				<p>
+					 <!-- Label and textarea -->
+<label for="message">Message :</label></br>
+<textarea id="message"></textarea>
+				</p>
+			</div>
+			<input value="Envoyer" type="submit"/>
+		</form>
+
+
+</section>
 <div class="container">
 		<p class="social"><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a> · <a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></p>
 		<p><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo.png" alt="Logo angéoz"></a></p>
