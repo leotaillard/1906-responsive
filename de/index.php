@@ -37,6 +37,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 <meta property="og:image:height" content="1500">
 </head>
 <body id="top">
+<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo_bleu.png" alt="Angeloz"></a></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

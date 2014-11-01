@@ -38,6 +38,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <meta property="og:image:height" content="1500">
 </head>
 <body id="top">
+<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo_bleu.png" alt="Angeloz"></a></div>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -46,7 +48,6 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
   js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=230970690400565";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
 <header id="header">
 <div class="container header-top desktop">
 	<nav id="menu-header-top" class="columns clearfix sixteen">

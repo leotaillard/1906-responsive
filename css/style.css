@@ -319,6 +319,12 @@ footer a:hover{
 footer span.heart{
 	font-size: 12px;
 }
+.othersite{
+	position: fixed;
+	top: 100px;
+	right: 20px;
+	z-index: 1000;
+}
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
 	.desktop{display: none;}
@@ -397,7 +403,7 @@ div.eight.columns.omega.container-img{border-top: 2px dotted #003552;}
 
 }
 @media only screen and (max-width: 1159px) {
-#other_site,#facebook{
+#othersite,#facebook{
 	display: none;
 }	
 }
