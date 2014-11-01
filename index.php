@@ -139,6 +139,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<?php include("include/brands-fr.php"); ?>
 		</div>
 	</div>
+		<div class="arrow arrow-brands"><a href="#brands">up</a></div>
 </section>
 <!-- SECTION AVANTAGES CLIENTS -->
 <section class="panel" id="compte">

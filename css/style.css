@@ -234,7 +234,15 @@ h2 {
     animation: bounce 1s ease infinite;
     z-index: 10;
 }
-
+#brands .arrow{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+	color: blue;
+}
+#brands .arrow a{
+	color: #003552;
+}
 .arrow a:hover{
 	border: none;
 	color: yellow;

@@ -85,14 +85,14 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<div class="sixteen columns">
 			<h1><img src="../css/img/logo-1906.svg" alt="logo angeloz mode" /></h1>
 		</div>
-		<div class="eight columns">
+		<!-- <div class="eight columns">
 			<a href="#trends" class="button-intro" title="Entdecke unsere aktuelle News">Entdecke unsere aktuelle News</a>				
 		</div>
 		<div class="eight columns">
 			<a href="#modal-text" class="button button-intro call-modal" title="Bestellen Sie Online-Gutschein">Bestellen Sie Online-Gutschein</a>				
-		</div>
+		</div> -->
 	</div>
-	<div class="arrow"><a href="#trends">▿</a></div>
+	<div class="arrow"><a href="#trends">▾</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
     <video class="covervid-video" autoplay poster="../../img/intro/intro.jpg">
@@ -136,6 +136,8 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<div id="container-brands" class="container">
 			<?php include("../include/brands-de.php"); ?>
 		</div>
+		<div class="arrow arrow-brands"><a href="#brands">up</a></div>
+
 	</div>
 </section>
 <!-- SECTION AVANTAGES CLIENTS -->
