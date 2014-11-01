@@ -1,1 +1,0 @@
-<?php include("img/brands/ALBERTO.svg"); ?>
