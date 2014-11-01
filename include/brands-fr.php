@@ -121,7 +121,7 @@ $brands = array(
 
 foreach ($brands as $key => $value) {
 ?>
-<div id="<?php echo $value['marque']; ?>" class='svg mix two columns
+<div id="<?php echo $value['marque']; ?>" class='svg mix three columns
 <?php 
 	if ($value['woman']) {
 		echo "woman ";

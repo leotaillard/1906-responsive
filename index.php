@@ -48,14 +48,21 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <header id="header">
+<div class="container header-top desktop">
+	<nav id="menu-header-top" class="columns clearfix sixteen">
+		<a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a>
+		<a href="de">Deutsch</a>
+	</nav>
+</div>
 <div class="container">
 	<nav class="logo">
-		<a href="index.php" class="two columns alpha clearfix">
+		<a href="index.php" class="two columns clearfix">
 			<img src="css/img/logo_1906.png" alt="logo angeloz mode" />
 		</a>
 		<div class="iphone icon-menu">Menu &#9776;</div>
 	</nav>
-	<nav id="menu" class="thirteen columns clearfix">
+	<nav id="menu" class="fourteen columns clearfix">
 		<ul>
 			<li><a href="#trends">Trends</a></li>
 			<li><a href="#contact">Magasins & horaires</a></li>
@@ -64,17 +71,12 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<li><a href="#giftcard">Giftcard</a></li>
 			<li><a href="#jobs">Jobs</a></li>
 			<li><a href="#aboutus">About us</a></li>
-			<li><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			<li><a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></li>
 			</ul>
 			<ul class="ipad" id="langue-hidden">
-				<li><a href="de">Deutsch</a></li>
+					<li><a href="de">Deutsch</a></li>
 			</ul>
 	</nav>
 	
-	<nav id="langue" class="one columns omega clearfix">
-		<a href="de">Deutsch</a>
-	</nav>
 </div>
 </header>
 	
