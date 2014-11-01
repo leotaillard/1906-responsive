@@ -101,5 +101,5 @@ width: 100%;
 height: 10px;
 }
 #container-brands .mix{min-height: 0;}
-.mix svg{display: none;}
+.mix svg, .mix img{display: none;}
 }

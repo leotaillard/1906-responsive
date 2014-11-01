@@ -128,10 +128,10 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		<h2>brands</h2>
 		<nav id="brands-nav">
 			<div class="filter" data-filter="all">Toutes les marques</div>
-			<div class="filter" data-filter=".fribourg">Fribourg Centre</div>
-			<div class="filter" data-filter=".laTour">Centre la Tour</div>
-			<div class="filter" data-filter=".man">Homme</div>
-			<div class="filter" data-filter=".woman">Femme</div>
+			<div class="filter" data-filter=".fribourg.man">Fribourg Centre man</div>
+			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre woman</div>
+			<div class="filter" data-filter=".laTour.mam">Centre la Tour man</div>
+			<div class="filter" data-filter=".laTour.woman">Centre la Tour woman</div>
 
 			<div class="clear"></div>
 		</nav>

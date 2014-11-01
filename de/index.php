@@ -126,10 +126,10 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<h2>brands</h2>
 		<nav id="brands-nav">
 			<div class="filter" data-filter="all">Alle Marken</div>
-			<div class="filter" data-filter=".fribourg">Fribourg Centre</div>
-			<div class="filter" data-filter=".laTour">Centre la Tour</div>
-			<div class="filter" data-filter=".man">Mann</div>
-			<div class="filter" data-filter=".woman">Frau</div>
+			<div class="filter" data-filter=".fribourg.man">Fribourg Centre mann</div>
+			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre frau</div>
+			<div class="filter" data-filter=".laTour.mam">Centre la Tour mann</div>
+			<div class="filter" data-filter=".laTour.woman">Centre la Tour frau</div>
 
 			<div class="clear"></div>
 		</nav>
