@@ -38,7 +38,6 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <meta property="og:image:height" content="1500">
 </head>
 <body id="top">
-<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo_bleu.png" alt="Angeloz"></a></div>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -79,6 +78,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	</nav>
 	
 </div>
+<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo.png" alt="Angeloz"></a></div>
 </header>
 	
 <!-- FIN DU HEADER -->
@@ -196,7 +196,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<div class="eight columns omega">
 				<p>Les bons cadeaux Giftcards sont valable dans les magasins "Angéloz" à Fribourg, Avry, Bulle et La Tour-de-Trême ainsi que dans le magasin "1906 by Angeloz" à Fribourg Centre</p>
 				
-				<a href="#modal-text" class="button call-modal" title="Commander un bon en ligne">Commander un bon en ligne</a>				
+				<a href="ajax-contents/bons.html" class="button ajax-popup-link" title="Commander un bon en ligne">Commander un bon en ligne</a>				
 				
 			</div>
 		</div>
@@ -235,41 +235,65 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section id="contact" class="panel">
 	<div class="container">
 		<h2>Contact</h2>
-		 <form class="sixteen columns clearfix" action="form.php" method="get">
-			<div class="eight columns alpha">
-		 	<p>
-				 <!-- Label and text input -->
-				<label for="input-name">Prénom :</label></br>
-				<input tabindex="1" type="text" id="input-name" name="name" />
-		 	</p>
-		 	<p>
-				 <!-- Label and text input -->
-				<label for="input-email">Email :</label></br>
-				<input tabindex="3" type="email" id="input-email" name="email" />
-		 	</p>
+				<form id="contact-form" class="sixteen columns clearfix" action="process.php" method="POST" enctype="multipart/form-data">
+					<div class="eight columns alpha">
 
-			</div>
-			<div class="eight columns omega">
-		 	<p>
-				 <!-- Label and text input -->
-				<label for="input-lastname">Nom :</label></br>
-				<input tabindex="2" type="text" id="input-lastname" name="lastname"/>
-		 	</p>
-		 	<p>
-				 <!-- Label and text input -->
-				<label for="input-phone">Téléphone :</label></br>
-				<input tabindex="4" type="text" id="input-phone" name="phone" />
-		 	</p>
+						<!-- NAME -->
+						<div id="prenom-group" class="form-group form-half alpha">
+							<label for="prenom">Prénom</label>
+							<input type="text" class="form-control" name="prenom" placeholder="Prénom">
+							<!-- errors will go here -->
+						</div>
+						<!-- Nom -->
+						<div id="nom-group" class="form-group form-half beta">
+							<label for="nom">Nom</label>
+							<input type="text" class="form-control" name="nom" placeholder="Nom">
+							<!-- errors will go here -->
+						</div>
+						
+						</div>
+						<div class="eight columns omega">
 
-			</div>
-			<div class="sixteen columns alpha clearfix">
-				<p>
-					 <!-- Label and textarea -->
-<label for="message">Message :</label></br>
-<textarea id="message"></textarea>
-				</p>
-			</div>
-			<input value="Envoyer" type="submit"/>
+						<!-- EMAIL -->
+						<div id="email-group" class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" name="email" placeholder="Email">
+							<!-- errors will go here -->
+						</div>
+
+						<!-- Phone number -->
+						<div id="phone-group" class="form-group">
+							<label for="phone">Téléphone</label>
+							<input type="text" class="form-control" name="phone" placeholder="Téléphone">
+							<!-- errors will go here -->
+						</div>
+						</div>
+						<div class="sixteen columns alpha">
+
+						<!-- MEssage number -->
+							<div id="message-group" class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control" name="message" placeholder="Message"></textarea>
+							<!-- errors will go here -->
+							</div>
+
+						</div>
+						<div class="sixteen columns alpha">
+							<div id="candidature-group" class="form-group">
+								<label for="checkbox-candidature">Cliquez ici pour envoyer votre candidature : </label>
+								<input type="checkbox" id="checkbox-candidature" class="form-control" name="candidature" value="candidature">
+								<!-- errors will go here -->
+							</div>
+							<!-- File  -->
+							<div id="file-group" class="form-group">
+							<label for="file">Veuillez nous joindre votre dossier de candidature avec lettre de motivation, CV et photo : </label>
+							<input type="file" id="file" class="form-control" name="file">
+							<!-- errors will go here -->
+							</div>
+
+						</div>
+					<button type="submit" class="btn btn-submit">Envoyer</button>
+
 		</form>
 
 
@@ -281,52 +305,10 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </div>
 </footer>
 
-<!-- Modal for command -->
-<section class="semantic-content" id="modal-text"
-		tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
 
-	<div class="modal-inner">
-		<div class="header">
-			<h2 id="modal-label">Commande de bons Angéloz et 1906 en ligne</h2>
-		</div>
-
-		<div class="modal-content">
-				<div class="modal-half">
-					<img src="img/giftcard/giftcard-command.png" alt="Bons Angéloz et 1906" />
-				</div>
-				<div class="modal-half">
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="QEX6QBU4TEFKS">
-					<table>
-					<tr><td><input type="hidden" name="on0" value="Montant">Montant</td></tr><tr><td><select name="os0">
-						<option value="Montant 50 Chfs -">Montant 50 Chfs - 50.00 CHF</option>
-						<option value="Montant 100 Chfs -">Montant 100 Chfs - 100.00 CHF</option>
-						<option value="Montant 200 Chfs -">Montant 200 Chfs - 200.00 CHF</option>
-						<option value="Montant 500 Chfs -">Montant 500 Chfs - 500.00 CHF</option>
-					</select> </td></tr>
-					<tr><td><input type="hidden" name="on1" value="Design">Design</td></tr><tr><td><select name="os1">
-						<option value="Angéloz Mode">Angéloz Mode </option>
-						<option value="1906">1906 </option>
-					</select> </td></tr>
-					</table>
-					<input type="hidden" name="currency_code" value="CHF">
-					<input type="image" src="https://www.paypalobjects.com/fr_FR/CH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-					<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					
-				</div>
-				<p>La carte cadeau est envoyée par lettre RECOMMANDÉE et est valable dans les magasins « Angéloz » à Fribourg, Avry et Bulle ainsi que dans les magasins « 1906 by Angéloz » à Fribourg-Centre et Centre La Tour. Si la carte n'est pas utilisée pendant 36 mois, l'avoir est annulé. Le solde total ou restant n'est pas convertible en espèces. En cas de perte ou de vol, la carte ne sera pas remplacée.</p>
-		</div>
-
-	</div>
-
-	<!-- Use Hash-Bang to maintain scroll position when closing modal -->
-	<a href="#!" class="modal-close" title="Close this modal"
-			data-dismiss="modal">&times;</a>
-</section><!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="js/min/jquery.interaction-ck.js"></script>
+<script src="js/form.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript">
 
@@ -340,6 +322,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	        minimumTime: 1000,
 	        deepSearch:true,
 	    });
+
 	    var feed = new Instafeed({
 	        get: 'user',
 	        userId: 1336494812,
@@ -372,38 +355,6 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
     	$('.covervid-video').coverVid(1280, 720);
 
 		$('#container-brands').mixItUp();
-    	
-// 	    $(function(){
-//     jQuery('.svg img').each(function(){
-//         var $img = jQuery(this);
-//         var imgID = $img.attr('id');
-//         var imgClass = $img.attr('class');
-//         var imgURL = $img.attr('src');
-    
-//         jQuery.get(imgURL, function(data) {
-//             // Get the SVG tag, ignore the rest
-//             var $svg = jQuery(data).find('svg');
-    
-//             // Add replaced image's ID to the new SVG
-//             if(typeof imgID !== 'undefined') {
-//                 $svg = $svg.attr('id', imgID);
-//             }
-//             // Add replaced image's classes to the new SVG
-//             if(typeof imgClass !== 'undefined') {
-//                 $svg = $svg.attr('class', imgClass+' replaced-svg');
-//             }
-    
-//             // Remove any invalid XML tags as per http://validator.w3.org
-//             $svg = $svg.removeAttr('xmlns:a');
-    
-//             // Replace image with new SVG
-//             $img.replaceWith($svg);
-    
-//         }, 'xml');
-    
-//     });
-// });
-
 
     });
 </script>

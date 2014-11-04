@@ -8,7 +8,7 @@ body {
 	color: #003552;
 	font-size: 14px;
 	height: auto;
-	background: url('../css/img/bg2.jpg') fixed;
+	background: url('../css/img/bg.jpg') fixed;
 	font-family: 'Montserrat', sans-serif;
 }
 .iphone{
@@ -261,15 +261,12 @@ background: white;
 	margin: 10px 0;
 }
 
-/* ACCORDION */
-nav.nav-mag a{
-	width: 20%;
-	float: left;
-	margin: 5px 0 20px 10px;
+
+.modal-bon p{
+	font-size: 10px;
+	line-height: 17px;
+	margin-top: 20px;
 }
-
-
-
 
 #fb-root {
     display: none;
@@ -326,24 +323,51 @@ footer span.heart{
 }
 .othersite{
 	position: fixed;
-	top: 100px;
+	top: 20px;
 	right: 20px;
 	z-index: 1000;
 }
-
+.othersite a{
+	border: none;
+}
 /* Formualire */
-
-#contact textarea{
+#contact-form .form-group{
+	margin-bottom: 20px;
+}
+#contact-form label{
+	display: inline-block;
+}
+#contact-form textarea{
 	width: 100%;
 	min-height: 200px;
 	padding:20px;
 }
-#contact input{
+#contact-form input[type="file"]{
+	margin: 5px 0;
+}
+#contact-form input[type="text"],#contact-form input[type="email"]{
 	width: 100%;
 	height: 25px;
 	border: none;
 	background: rgba(255, 255 ,255,1);
 	padding-left: 20px;
+}
+#contact-form button.btn-submit{
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	background: #003552;
+	padding: 15px;
+	border: 2px solid white;
+	margin-top: 20px;
+}
+#contact-form button.btn-submit:hover{
+	background: white;
+	color: #003552;
+	cursor: pointer;
+}
+#contact-form #file-group{
+	display: none;
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
