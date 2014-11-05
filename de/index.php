@@ -8,7 +8,6 @@
 <title>1906 by Angeloz</title>
 
 <link rel="stylesheet" href="../css/reset.css" />
-<link rel="stylesheet" href="../css/modal.css">
 <link rel="stylesheet" href="../css/text.css" />
 <link rel="stylesheet" href="../css/skeleton.css" />
 <link rel="stylesheet" href="../css/style.css" />
@@ -73,6 +72,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 			</ul>
 	</nav>
 </div>
+<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="../css/img/logo.png" alt="Angeloz"></a></div>
 </header>
 	
 <!-- FIN DU HEADER -->
@@ -124,7 +124,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 			<div class="filter" data-filter="all">Alle Marken</div>
 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre mann</div>
 			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre frau</div>
-			<div class="filter" data-filter=".laTour.mam">Centre la Tour mann</div>
+			<div class="filter" data-filter=".laTour.man">Centre la Tour mann</div>
 			<div class="filter" data-filter=".laTour.woman">Centre la Tour frau</div>
 
 			<div class="clear"></div>
@@ -132,7 +132,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<div id="container-brands" class="container">
 			<?php include("../include/brands-de.php"); ?>
 		</div>
-		<div class="arrow arrow-brands"><a href="#brands">up</a></div>
+		<div class="arrow arrow-brands"><a href="#brands">▴</a></div>
 
 	</div>
 </section>
@@ -188,7 +188,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 			<div class="eight columns omega">
 				<p>Diese Geschenkgutscheine, genannt „Giftcards“, sind in den Boutiquen Angéloz in Fribourg, Avry, Bulle und La Tour-de-Trême, sowie in der Boutique 1906 by Angéloz im Fribourg Centre erhältlich. Fragen Sie einfach unser Personal vor Ort nach der „Giftcard“.</p>
 				
-				<a href="#modal-text" class="button call-modal" title="Bestellen Sie Online-Gutschein">Bestellen Sie Online-Gutschein</a>				
+				<a href="../ajax-contents/gutschein.html" class="button ajax-popup-link" title="Bestellen Sie Online-Gutschein">Bestellen Sie Online-Gutschein</a>				
 				
 			</div>
 		</div>
@@ -230,50 +230,6 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<p>Alle Rechte vorbehalten - Angéloz mode - <?php echo date("Y"); ?> - made with <span class="heart"><i class="fa fa-heart"></i></span> by <a href="http://mynameis.ch" target="_blank">mni</a></p>
 </div>
 </footer>
-
-<!-- Modal for command -->
-<section class="semantic-content" id="modal-text"
-		tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
-
-	<div class="modal-inner">
-		<div class="header">
-			<h2 id="modal-label">Bestellen Sie Online-Gutschein</h2>
-		</div>
-
-		<div class="modal-content">
-				<div class="modal-half">
-					<img src="../img/giftcard/giftcard-command.png" alt="Bons Angéloz et 1906" />
-				</div>
-				<div class="modal-half">
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="PU3RN4F35BEAU">
-<table>
-<tr><td><input type="hidden" name="on0" value="Betrag">Betrag</td></tr><tr><td><select name="os0">
-	<option value="50 Chfs Betrag -">50 Chfs Betrag - 50.00 CHF</option>
-	<option value="100 Chfs Betrag -">100 Chfs Betrag - 100.00 CHF</option>
-	<option value="200 Chfs Betrag -">200 Chfs Betrag - 200.00 CHF</option>
-	<option value="500 Chfs Betrag -">500 Chfs Betrag - 500.00 CHF</option>
-</select> </td></tr>
-<tr><td><input type="hidden" name="on1" value="Design">Design</td></tr><tr><td><select name="os1">
-	<option value="Angéloz Mode">Angéloz Mode </option>
-	<option value="1906">1906 </option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="CHF">
-<input type="image" src="https://www.paypalobjects.com/de_DE/CH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-</form>
-				</div>
-				<p>Die Giftcard wird per Einschreiben verschickt und ist in allen « Angéloz » Filialen in Fribourg, Bulle und Avry und in den "1906 by Angéloz" Filialen im Fribourg-Centre und Centre La Tour einsetzbar. Wird die 	Karte 36 Monate nicht genutzt, verfällt das Guthaben. Keine Barauszahlung des Gesamtbetrages oder Restsaldos möglich. Die Karte wird bei Verlust oder Diebstahl nicht ersetzt.</p>
-		</div>
-
-	</div>
-
-	<!-- Use Hash-Bang to maintain scroll position when closing modal -->
-	<a href="#!" class="modal-close" title="Close this modal"
-			data-dismiss="modal">&times;</a>
-</section><!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="../js/min/jquery.interaction-ck.js"></script>
 <script src="../js/jquery.magnific-popup.min.js"></script>
@@ -322,38 +278,6 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
     	$('.covervid-video').coverVid(1280, 720);
 
 		$('#container-brands').mixItUp();
-    	
-	    $(function(){
-    jQuery('.svg img').each(function(){
-        var $img = jQuery(this);
-        var imgID = $img.attr('id');
-        var imgClass = $img.attr('class');
-        var imgURL = $img.attr('src');
-    
-        jQuery.get(imgURL, function(data) {
-            // Get the SVG tag, ignore the rest
-            var $svg = jQuery(data).find('svg');
-    
-            // Add replaced image's ID to the new SVG
-            if(typeof imgID !== 'undefined') {
-                $svg = $svg.attr('id', imgID);
-            }
-            // Add replaced image's classes to the new SVG
-            if(typeof imgClass !== 'undefined') {
-                $svg = $svg.attr('class', imgClass+' replaced-svg');
-            }
-    
-            // Remove any invalid XML tags as per http://validator.w3.org
-            $svg = $svg.removeAttr('xmlns:a');
-    
-            // Replace image with new SVG
-            $img.replaceWith($svg);
-    
-        }, 'xml');
-    
-    });
-});
-
 
     });
 </script>

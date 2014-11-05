@@ -12,6 +12,7 @@ $(document).ready(function() {
 
             $('form').submit(function(event) {
 
+
                 $('.form-group').removeClass('has-error'); // remove the error class
                 $('.help-block').remove(); // remove the error text
 
@@ -30,7 +31,6 @@ $(document).ready(function() {
                     type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
                     url         : 'process.php', // the url where we want to POST
                     data        : formData, // our data object
-                    contentType: attr( "enctype", "multipart/form-data" ),
                     dataType    : 'json', // what type of data do we expect back from the server
                     encode      : true
                 })

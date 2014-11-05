@@ -68,7 +68,7 @@ $data 			= array(); 		// array to pass back data
 		$mail->Subject = 'Formulaire de contact - 1906';
 		$mail->Body    = $content;
 
-		$mail->send();
+		// $mail->send();
 	}
 
 	// return all our data to an AJAX call

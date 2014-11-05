@@ -95,11 +95,6 @@ a.button-intro:hover,#intro a.button:hover{
 .clear{
 	clear: both;
 }
-/*#brands svg{
-	width: 100px;
-	height: 100px;
-}*/
-.svg:hover svg path, .svg:hover svg polygon,.svg:hover svg rect{fill: rgba(0,53,82,0.1) !important;stroke-width:0;}
 .txt-align-right{
 	text-align: right;
 }
@@ -225,13 +220,16 @@ h2 {
 	margin-top: 60px;
 }
 @keyframes bounce{ from {bottom: 20px;} 50% {bottom: 25px;} to {bottom: 20px;} }
+
 #intro .arrow{
 	position: absolute;
 	bottom: 20px;
     text-align: center;
     width: 100%;
     font-size: 50px;
-    animation: bounce 1s ease infinite;
+	-webkit-animation: bounce 1s ease infinite;
+	-o-animation: bounce 1s ease infinite;
+	animation: bounce 1s ease infinite;
     z-index: 10;
 }
 #brands .arrow{
@@ -239,11 +237,12 @@ h2 {
     width: 100%;
     font-size: 14px;
 	color: blue;
+	font-size: 40px;
 }
 #brands .arrow a{
 	color: #003552;
 }
-.arrow a:hover{
+#brands .arrow a:hover, #intro .arrow a:hover{
 	border: none;
 	color: yellow;
 }
@@ -253,7 +252,7 @@ section.panel{
 	min-height: 500px;
 	padding-bottom: 50px;
 }
-section.panel:nth-child(2n+1){
+section.panel:nth-child(2n+2){
 background: white;
 }
 
@@ -316,10 +315,13 @@ footer a:hover{
 footer span.heart{
 	font-size: 12px;
 }
-#contact.panel{
+#form.panel{
 	text-align: left;
 	color: white;
 	background: #003552;
+}
+#form.panel h2{
+	border-color: white; 
 }
 .othersite{
 	position: fixed;
@@ -368,6 +370,10 @@ footer span.heart{
 }
 #contact-form #file-group{
 	display: none;
+}
+.help-block{
+	margin:5px 0;
+	color: red;
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
@@ -474,15 +480,3 @@ div.eight.columns.omega.container-img{border-top: 2px dotted #003552;}
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 320px) {
 }
-
-
-
-
-
-
-
-
-
-
-
-

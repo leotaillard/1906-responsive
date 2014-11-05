@@ -8,7 +8,6 @@
 <title>1906 by Angeloz</title>
 
 <link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/modal.css">
 <link rel="stylesheet" href="css/text.css" />
 <link rel="stylesheet" href="css/skeleton.css" />
 <link rel="stylesheet" href="css/style.css" />
@@ -131,8 +130,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<div class="filter" data-filter="all">Toutes les marques</div>
 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre man</div>
 			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre woman</div>
-			<div class="filter" data-filter=".laTour.mam">Centre la Tour man</div>
-			<div class="filter" data-filter=".laTour.woman">Centre la Tour woman</div>
+			<div class="filter" data-filter=".latour.man">Centre la Tour man</div>
+			<div class="filter" data-filter=".latour.woman">Centre la Tour woman</div>
 
 			<div class="clear"></div>
 		</nav>
@@ -140,7 +139,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<?php include("include/brands-fr.php"); ?>
 		</div>
 	</div>
-		<div class="arrow arrow-brands"><a href="#brands">up</a></div>
+		<div class="arrow arrow-brands"><a href="#brands">▴</a></div>
 </section>
 <!-- SECTION AVANTAGES CLIENTS -->
 <section class="panel" id="compte">
@@ -232,10 +231,10 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- SECTION About -->
 <!-- FOOTER -->
 <footer class="panel" id="copyright">
-<section id="contact" class="panel">
+<section id="form" class="panel">
 	<div class="container">
 		<h2>Contact</h2>
-				<form id="contact-form" class="sixteen columns clearfix" action="process.php" method="POST" enctype="multipart/form-data">
+				<form id="contact-form" class="sixteen columns clearfix" action="process.php" method="POST" >
 					<div class="eight columns alpha">
 
 						<!-- NAME -->
@@ -354,7 +353,17 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
     	$('.covervid-video').coverVid(1280, 720);
 
-		$('#container-brands').mixItUp();
+		$('#container-brands').mixItUp({
+			// callbacks: {
+			// 	onMixEnd: function(state){
+			// 			var currentFilter = state.activeFilter,
+			// 			totalItems = state.$show.length;
+			// 		if (totalItems === 0) {
+			// 			alert("il n'y a pas de...");
+			// 		};
+			// 	}
+			// }
+		});
 
     });
 </script>
