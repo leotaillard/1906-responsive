@@ -123,10 +123,10 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<nav id="brands-nav">
 <!-- 			<div class="filter" data-filter="all">Alle Marken</div>
  -->
- 			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre <span class="icon woman-icon"></span></div>
- 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre <span class="icon man-icon"></span></div>
- 			<div class="filter" data-filter=".laTour.woman">Centre la Tour <span class="icon woman-icon"></span></div>
-			<div class="filter" data-filter=".laTour.man">Centre la Tour <span class="icon man-icon"></span></div>
+ 			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre woman</div>
+ 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre man</div>
+ 			<div class="filter" data-filter=".laTour.woman">Centre la Tour woman</div>
+			<div class="filter" data-filter=".laTour.man">Centre la Tour man</div>
 
 			<div class="clear"></div>
 		</nav>
@@ -278,7 +278,11 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 
     	$('.covervid-video').coverVid(1280, 720);
 
-		$('#container-brands').mixItUp();
+		$('#container-brands').mixItUp({
+			load: {
+				filter: '.fribourg.woman'
+			}
+		});
 
     });
 </script>
