@@ -125,10 +125,10 @@ span.icon{
 .icon.man-icon{
 	background: url('img/man-icon.png');
 }
-#brands-nav .filter:hover > .icon.woman-icon{
+#brands-nav .filter:hover > .icon.woman-icon, #brands-nav .filter.active .icon.woman-icon{
 	background: url('img/woman-icon-hover.png');
 }
-#brands-nav .filter:hover > .icon.man-icon{
+#brands-nav .filter:hover > .icon.man-icon, #brands-nav .filter.active .icon.man-icon{
 	background: url('img/man-icon-hover.png');
 }
 
@@ -244,7 +244,7 @@ span.icon{
 	bottom: 20px;
     text-align: center;
     width: 100%;
-    font-size: 50px;
+    font-size: 100px;
 	-webkit-animation: bounce 1s ease infinite;
 	-o-animation: bounce 1s ease infinite;
 	animation: bounce 1s ease infinite;

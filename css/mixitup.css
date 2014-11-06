@@ -61,7 +61,6 @@ ul#instafeed li{
 
 
 @media only screen and (max-width: 959px) {
-.issuuembed, #trends h2{display: none;}
 #brands-nav .filter{
 	cursor: pointer;
 	float: none;
@@ -100,6 +99,7 @@ text-align: center;
 width: 100%;
 height: 10px;
 }
+
 #container-brands .mix{min-height: 0;}
 .mix svg, .mix img{display: none;}
 }
