@@ -107,7 +107,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<ul id="instafeed" class="gallery clearfix"></ul>
 	<div class="container">
 		<h2>trends</h2>
-		<div data-configid="7214851/9198009" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="img/trends/issuu.jpg" alt="ISSUU magazine"></a>
 	</div>
 </section>
 
@@ -127,11 +127,12 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="container">
 		<h2>brands</h2>
 		<nav id="brands-nav">
-			<div class="filter" data-filter="all">Toutes les marques</div>
-			<div class="filter" data-filter=".fribourg.man">Fribourg Centre man</div>
-			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre woman</div>
-			<div class="filter" data-filter=".latour.man">Centre la Tour man</div>
-			<div class="filter" data-filter=".latour.woman">Centre la Tour woman</div>
+<!-- 			<div class="filter" data-filter="all">Toutes les marques</div>
+ -->		
+			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre <span class="icon woman-icon"></span></div>
+ 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre <span class="icon man-icon"></span></div>
+			<div class="filter" data-filter=".laTour.woman">Centre la Tour <span class="icon woman-icon"></span></div>
+			<div class="filter" data-filter=".laTour.man">Centre la Tour <span class="icon man-icon"></span></div>
 
 			<div class="clear"></div>
 		</nav>
@@ -231,72 +232,6 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- SECTION About -->
 <!-- FOOTER -->
 <footer class="panel" id="copyright">
-<section id="form" class="panel">
-	<div class="container">
-		<h2>Contact</h2>
-				<form id="contact-form" class="sixteen columns clearfix" action="process.php" method="POST" >
-					<div class="eight columns alpha">
-
-						<!-- NAME -->
-						<div id="prenom-group" class="form-group form-half alpha">
-							<label for="prenom">Prénom</label>
-							<input type="text" class="form-control" name="prenom" placeholder="Prénom">
-							<!-- errors will go here -->
-						</div>
-						<!-- Nom -->
-						<div id="nom-group" class="form-group form-half beta">
-							<label for="nom">Nom</label>
-							<input type="text" class="form-control" name="nom" placeholder="Nom">
-							<!-- errors will go here -->
-						</div>
-						
-						</div>
-						<div class="eight columns omega">
-
-						<!-- EMAIL -->
-						<div id="email-group" class="form-group">
-							<label for="email">Email</label>
-							<input type="email" class="form-control" name="email" placeholder="Email">
-							<!-- errors will go here -->
-						</div>
-
-						<!-- Phone number -->
-						<div id="phone-group" class="form-group">
-							<label for="phone">Téléphone</label>
-							<input type="text" class="form-control" name="phone" placeholder="Téléphone">
-							<!-- errors will go here -->
-						</div>
-						</div>
-						<div class="sixteen columns alpha">
-
-						<!-- MEssage number -->
-							<div id="message-group" class="form-group">
-							<label for="message">Message</label>
-							<textarea class="form-control" name="message" placeholder="Message"></textarea>
-							<!-- errors will go here -->
-							</div>
-
-						</div>
-						<div class="sixteen columns alpha">
-							<div id="candidature-group" class="form-group">
-								<label for="checkbox-candidature">Cliquez ici pour envoyer votre candidature : </label>
-								<input type="checkbox" id="checkbox-candidature" class="form-control" name="candidature" value="candidature">
-								<!-- errors will go here -->
-							</div>
-							<!-- File  -->
-							<div id="file-group" class="form-group">
-							<label for="file">Veuillez nous joindre votre dossier de candidature avec lettre de motivation, CV et photo : </label>
-							<input type="file" id="file" class="form-control" name="file">
-							<!-- errors will go here -->
-							</div>
-
-						</div>
-					<button type="submit" class="btn btn-submit">Envoyer</button>
-
-		</form>
-
-
-</section>
 <div class="container">
 		<p class="social"><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a> · <a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></p>
 		<p><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo.png" alt="Logo angéoz"></a></p>

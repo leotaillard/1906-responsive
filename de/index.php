@@ -102,7 +102,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 	<ul id="instafeed" class="gallery clearfix"></ul>
 	<div class="container">
 		<h2>trends</h2>
-		<div data-configid="7214851/9198009" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="../img/trends/issuu.jpg" alt="ISSUU magazine"></a>
 	</div>
 </section>
 
@@ -121,11 +121,12 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 	<div class="container">
 		<h2>brands</h2>
 		<nav id="brands-nav">
-			<div class="filter" data-filter="all">Alle Marken</div>
-			<div class="filter" data-filter=".fribourg.man">Fribourg Centre mann</div>
-			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre frau</div>
-			<div class="filter" data-filter=".laTour.man">Centre la Tour mann</div>
-			<div class="filter" data-filter=".laTour.woman">Centre la Tour frau</div>
+<!-- 			<div class="filter" data-filter="all">Alle Marken</div>
+ -->
+ 			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre <span class="icon woman-icon"></span></div>
+ 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre <span class="icon man-icon"></span></div>
+ 			<div class="filter" data-filter=".laTour.woman">Centre la Tour <span class="icon woman-icon"></span></div>
+			<div class="filter" data-filter=".laTour.man">Centre la Tour <span class="icon man-icon"></span></div>
 
 			<div class="clear"></div>
 		</nav>

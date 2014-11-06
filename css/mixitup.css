@@ -41,12 +41,12 @@ ul#instafeed li{
 	margin: 0;
 
 }
- .gallery-mag{
+.gallery-mag{
   width: 100%;
   position: relative;
   list-style: none;
   padding: 0 0;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   text-align: left;
   width: 100%;
 }
