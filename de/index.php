@@ -31,7 +31,6 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 <meta property="og:image:type" content="image/png">
 </head>
 <body id="top">
-<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo_bleu.png" alt="Angeloz"></a></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -72,7 +71,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 			</ul>
 	</nav>
 </div>
-<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="../css/img/logo.png" alt="Angeloz"></a></div>
+<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="../css/img/logo.png" alt="Angeloz" width="70%" height="70%"></a></div>
 </header>
 	
 <!-- FIN DU HEADER -->
@@ -101,7 +100,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 <section class="panel" id="trends">
 	<ul id="instafeed" class="gallery clearfix"></ul>
 	<div class="container">
-		<h2>trends</h2>
+		<h2>magazine</h2>
 		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="../img/trends/issuu.jpg" alt="ISSUU magazine"></a>
 	</div>
 </section>
@@ -123,10 +122,11 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<nav id="brands-nav">
 <!-- 			<div class="filter" data-filter="all">Alle Marken</div>
  -->
- 			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre woman</div>
- 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre man</div>
- 			<div class="filter" data-filter=".laTour.woman">Centre la Tour woman</div>
-			<div class="filter" data-filter=".laTour.man">Centre la Tour man</div>
+			<div class="filter" data-filter=".fribourgwoman">Fribourg Centre WOMEN</div>
+ 			<div class="filter" data-filter=".fribourgman">Fribourg Centre MEN</div>
+			<div class="filter" data-filter=".centrelatourwoman">Centre la Tour WOMEN</div>
+			<div class="filter" data-filter=".centrelatourman">Centre la Tour MEN</div>
+
 
 			<div class="clear"></div>
 		</nav>
@@ -280,7 +280,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 
 		$('#container-brands').mixItUp({
 			load: {
-				filter: '.fribourg.woman'
+				filter: '.fribourgwoman'
 			}
 		});
 

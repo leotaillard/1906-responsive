@@ -77,7 +77,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	</nav>
 	
 </div>
-<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo.png" alt="Angeloz"></a></div>
+<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="css/img/logo.png" alt="Angeloz" width="70%" height="70%"></a></div>
 </header>
 	
 <!-- FIN DU HEADER -->
@@ -106,7 +106,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="trends">
 	<ul id="instafeed" class="gallery clearfix"></ul>
 	<div class="container">
-		<h2>trends</h2>
+		<h2>magazine</h2>
 		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="img/trends/issuu.jpg" alt="ISSUU magazine"></a>
 	</div>
 </section>
@@ -129,10 +129,10 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		<nav id="brands-nav">
 <!-- 			<div class="filter" data-filter="all">Toutes les marques</div>
  -->		
-			<div class="filter" data-filter=".fribourg.woman">Fribourg Centre woman</div>
- 			<div class="filter" data-filter=".fribourg.man">Fribourg Centre man</div>
-			<div class="filter" data-filter=".laTour.woman">Centre la Tour woman</div>
-			<div class="filter" data-filter=".laTour.man">Centre la Tour man</div>
+			<div class="filter" data-filter=".fribourgwoman">Fribourg Centre WOMEN</div>
+ 			<div class="filter" data-filter=".fribourgman">Fribourg Centre MEN</div>
+			<div class="filter" data-filter=".centrelatourwoman">Centre la Tour WOMEN</div>
+			<div class="filter" data-filter=".centrelatourman">Centre la Tour MEN</div>
 
 			<div class="clear"></div>
 		</nav>
@@ -290,7 +290,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 		$('#container-brands').mixItUp({
 			load: {
-				filter: '.fribourg.woman'
+				filter: '.fribourgwoman'
 			}
 		});
 
