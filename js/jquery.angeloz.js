@@ -39,7 +39,7 @@ $(function() {
 					});
 				};
 
-		$('a:not(.button)').juizScrollTo('slow',-40);
+		$('a:not(.button)').juizScrollTo('slow',-60);
 		// menu
 		$(".icon-menu").click(function() {
 			$("nav#menu").toggle("appear");

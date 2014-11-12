@@ -8,7 +8,7 @@ body {
 	color: #003552;
 	font-size: 14px;
 	height: auto;
-	background: url('../css/img/bg2.jpg') fixed;
+	background: url('../css/img/bg.jpg') fixed;
 	font-family: 'Montserrat', sans-serif;
 }
 .iphone{
@@ -95,11 +95,6 @@ a.button-intro:hover,#intro a.button:hover{
 .clear{
 	clear: both;
 }
-/*#brands svg{
-	width: 100px;
-	height: 100px;
-}*/
-.svg:hover svg path, .svg:hover svg polygon,.svg:hover svg rect{fill: rgba(0,53,82,0.1) !important;stroke-width:0;}
 .txt-align-right{
 	text-align: right;
 }
@@ -118,7 +113,6 @@ h2 {
 	font-weight: normal;
 	font-style: normal;
 }
-
 /* HEADER */
 @keyframes color_up {
     from {
@@ -161,14 +155,6 @@ h2 {
 	color: white;
 	cursor: pointer;
 }
-#langue{
-	font-style: italic;
-	font-size: 10px;
-	padding-top: 20px;
-	list-style: none;
-	height: 50px;
-	text-align: right;
-}
 #menu ul#langue-hidden{
 	font-size: 12px;
 	text-align: center;
@@ -177,7 +163,7 @@ h2 {
 }
 #menu ul{
 	min-height: 30px;
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 	padding: 16px 0 0 10px;
 }
@@ -198,6 +184,19 @@ h2 {
 	position: absolute;
 	margin-left: 0;
 }
+#menu-header-top{
+	width: 100%;
+	height: 20px;
+	text-align: right;
+	font-style: italic;
+	font-size: 10px;
+	line-height: 10px;
+	padding-top: 4px;
+	margin:0;
+}
+#menu-header-top a{
+	padding-left: 4px;
+}
 /* INTRO */
 #intro{
 	background: url('../img/intro/intro2.jpg') no-repeat center center fixed; 
@@ -217,19 +216,32 @@ h2 {
 }
 #intro h1{
 	color: yellow;
+	margin-top: 60px;
 }
 @keyframes bounce{ from {bottom: 20px;} 50% {bottom: 25px;} to {bottom: 20px;} }
+
 #intro .arrow{
 	position: absolute;
 	bottom: 20px;
     text-align: center;
     width: 100%;
-    font-size: 50px;
-    animation: bounce 1s ease infinite;
+    font-size: 100px;
+	-webkit-animation: bounce 1s ease infinite;
+	-o-animation: bounce 1s ease infinite;
+	animation: bounce 1s ease infinite;
     z-index: 10;
 }
-
-.arrow a:hover{
+#brands .arrow{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+	color: blue;
+	font-size: 40px;
+}
+#brands .arrow a{
+	color: #003552;
+}
+#brands .arrow a:hover, #intro .arrow a:hover{
 	border: none;
 	color: yellow;
 }
@@ -247,15 +259,12 @@ background: white;
 	margin: 10px 0;
 }
 
-/* ACCORDION */
-nav.nav-mag a{
-	width: 20%;
-	float: left;
-	margin: 5px 0 20px 10px;
+
+.modal-bon p{
+	font-size: 10px;
+	line-height: 17px;
+	margin-top: 20px;
 }
-
-
-
 
 #fb-root {
     display: none;
@@ -268,7 +277,9 @@ nav.nav-mag a{
 	text-transform: uppercase;
 	margin: 20px 0;
 }
-
+#trends img {
+	cursor: pointer;
+}
 #aboutus{
 		background: url('../img/aboutus/background.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -303,14 +314,71 @@ footer a:hover{
 	border: none;
 }
 footer span.heart{
-	color: red;
 	font-size: 12px;
 }
-footer span.heart:hover{
-	font-size: 16px;
+#form.panel{
+	text-align: left;
+	color: white;
+	background: #003552;
+}
+#form.panel h2{
+	border-color: white; 
+}
+.othersite{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+.othersite a{
+	border: none;
+}
+/* Formualire */
+#contact-form .form-group{
+	margin-bottom: 20px;
+}
+#contact-form label{
+	display: inline-block;
+}
+#contact-form textarea{
+	width: 100%;
+	min-height: 200px;
+	padding:20px;
+}
+#contact-form input[type="file"]{
+	margin: 5px 0;
+}
+#contact-form input[type="text"],#contact-form input[type="email"]{
+	width: 100%;
+	height: 25px;
+	border: none;
+	background: rgba(255, 255 ,255,1);
+	padding-left: 20px;
+}
+#contact-form button.btn-submit{
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	background: #003552;
+	padding: 15px;
+	border: 2px solid white;
+	margin-top: 20px;
+}
+#contact-form button.btn-submit:hover{
+	background: white;
+	color: #003552;
+	cursor: pointer;
+}
+#contact-form #file-group{
+	display: none;
+}
+.help-block{
+	margin:5px 0;
+	color: red;
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
+	.desktop{display: none;}
 	#menu ul a{
 		display: inline-block;
 		width: 100%;
@@ -386,7 +454,7 @@ div.eight.columns.omega.container-img{border-top: 2px dotted #003552;}
 
 }
 @media only screen and (max-width: 1159px) {
-#other_site,#facebook{
+#othersite,#facebook{
 	display: none;
 }	
 }
@@ -413,15 +481,3 @@ div.eight.columns.omega.container-img{border-top: 2px dotted #003552;}
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 320px) {
 }
-
-
-
-
-
-
-
-
-
-
-
-

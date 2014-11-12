@@ -8,15 +8,11 @@
 <title>1906 by Angeloz</title>
 
 <link rel="stylesheet" href="../css/reset.css" />
-<link rel="stylesheet" href="../css/modal.css">
 <link rel="stylesheet" href="../css/text.css" />
 <link rel="stylesheet" href="../css/skeleton.css" />
 <link rel="stylesheet" href="../css/style.css" />
 <link rel="stylesheet" href="../css/mixitup.css" />
-<link rel="stylesheet" href="../css/owl.carousel.css" />
-<link rel="stylesheet" href="../css/thewall.css" />
 <link rel="stylesheet" href="../css/magnific-popup.css"> 
-
 <link rel="stylesheet" href="../css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -30,11 +26,9 @@
 <meta property="og:description" content="For Girls:
 Maison Scotch / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Rich & Royal / French Connection / Vero Moda / Only / Pieces / Campus / Superdry / Adidas / Nike / UGG / and many others
 For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack & Jones / Superdry / Adidas / Nike / Swear / and many others">
-<meta property="og:image" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
-<meta property="og:image:secure_url" content="http://sandbox.mynameis.ch/1906-responsive/css/img/logo_1906.png">
+<meta property="og:image" content="http://www.1906.ch/css/img/logo_1906.png">
+<meta property="og:image:secure_url" content="http://www.1906.ch/css/img/logo_1906.png">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1500">
-<meta property="og:image:height" content="1500">
 </head>
 <body id="top">
 <div id="fb-root"></div>
@@ -47,6 +41,14 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <header id="header">
+<div class="container header-top desktop">
+	<nav id="menu-header-top" class="columns clearfix sixteen">
+		<a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a>
+		<a href="../">Français</a>
+	</nav>
+</div>
+
 <div class="container">
 	<nav class="logo">
 		<a href="index.php" class="two columns alpha clearfix">
@@ -54,7 +56,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		</a>
 		<div class="iphone icon-menu">Menu &#9776;</div>
 	</nav>
-	<nav id="menu" class="thirteen columns clearfix">
+	<nav id="menu" class="fourteen columns clearfix">
 		<ul>
 			<li><a href="#trends">Trends</a></li>
 			<li><a href="#contact">Geschäfte und Öffnungszeit</a></li>
@@ -63,19 +65,13 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 			<li><a href="#giftcard">Giftcard</a></li>
 			<li><a href="#jobs">Jobs</a></li>
 			<li><a href="#aboutus">About us</a></li>
-			<li><a href="http://instagram.com/1906byangeloz" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			<li><a href="https://www.facebook.com/pages/1906-by-Ang%C3%A9loz/354437291287417" target="_blank"><i class="fa fa-facebook"></i></a></li>
-
 			</ul>
 			<ul class="ipad" id="langue-hidden">
 				<li><a href="../">Français</a></li>
 			</ul>
 	</nav>
-	
-	<nav id="langue" class="one columns omega clearfix">
-		<a href="../">Français</a>
-	</nav>
 </div>
+<div class="othersite desktop"><a href="http://www.angeloz-mode.ch" target="_blank"><img src="../css/img/logo.png" alt="Angeloz" width="70%" height="70%"></a></div>
 </header>
 	
 <!-- FIN DU HEADER -->
@@ -84,14 +80,14 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<div class="sixteen columns">
 			<h1><img src="../css/img/logo-1906.svg" alt="logo angeloz mode" /></h1>
 		</div>
-		<div class="eight columns">
+		<!-- <div class="eight columns">
 			<a href="#trends" class="button-intro" title="Entdecke unsere aktuelle News">Entdecke unsere aktuelle News</a>				
 		</div>
 		<div class="eight columns">
 			<a href="#modal-text" class="button button-intro call-modal" title="Bestellen Sie Online-Gutschein">Bestellen Sie Online-Gutschein</a>				
-		</div>
+		</div> -->
 	</div>
-	<div class="arrow"><a href="#trends">▿</a></div>
+	<div class="arrow"><a href="#trends">▾</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
     <video class="covervid-video" autoplay poster="../../img/intro/intro.jpg">
@@ -104,8 +100,8 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 <section class="panel" id="trends">
 	<ul id="instafeed" class="gallery clearfix"></ul>
 	<div class="container">
-		<h2>trends</h2>
-		<div data-configid="7214851/9198009" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+		<h2>magazine</h2>
+		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="../img/trends/issuu.jpg" alt="ISSUU magazine"></a>
 	</div>
 </section>
 
@@ -113,8 +109,9 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 <section class="panel" id="contact">
 	<div class="container">
 		<h2>Geschäfte</h2>
-	</div>
 <?php  include('../include/mag-lightbox-de.php'); ?>
+
+	</div>
 
 </section>
 
@@ -123,17 +120,21 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 	<div class="container">
 		<h2>brands</h2>
 		<nav id="brands-nav">
-			<div class="filter" data-filter="all">Alle Marken</div>
-			<div class="filter" data-filter=".fribourg">Fribourg Centre</div>
-			<div class="filter" data-filter=".laTour">Centre la Tour</div>
-			<div class="filter" data-filter=".man">Mann</div>
-			<div class="filter" data-filter=".woman">Frau</div>
+<!-- 			<div class="filter" data-filter="all">Alle Marken</div>
+ -->
+			<div class="filter" data-filter=".fribourgwoman">Fribourg Centre WOMEN</div>
+ 			<div class="filter" data-filter=".fribourgman">Fribourg Centre MEN</div>
+			<div class="filter" data-filter=".centrelatourwoman">Centre la Tour WOMEN</div>
+			<div class="filter" data-filter=".centrelatourman">Centre la Tour MEN</div>
+
 
 			<div class="clear"></div>
 		</nav>
 		<div id="container-brands" class="container">
 			<?php include("../include/brands-de.php"); ?>
 		</div>
+		<div class="arrow arrow-brands"><a href="#brands">▴</a></div>
+
 	</div>
 </section>
 <!-- SECTION AVANTAGES CLIENTS -->
@@ -188,7 +189,7 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 			<div class="eight columns omega">
 				<p>Diese Geschenkgutscheine, genannt „Giftcards“, sind in den Boutiquen Angéloz in Fribourg, Avry, Bulle und La Tour-de-Trême, sowie in der Boutique 1906 by Angéloz im Fribourg Centre erhältlich. Fragen Sie einfach unser Personal vor Ort nach der „Giftcard“.</p>
 				
-				<a href="#modal-text" class="button call-modal" title="Bestellen Sie Online-Gutschein">Bestellen Sie Online-Gutschein</a>				
+				<a href="../ajax-contents/gutschein.html" class="button ajax-popup-link" title="Bestellen Sie Online-Gutschein">Bestellen Sie Online-Gutschein</a>				
 				
 			</div>
 		</div>
@@ -230,50 +231,6 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 		<p>Alle Rechte vorbehalten - Angéloz mode - <?php echo date("Y"); ?> - made with <span class="heart"><i class="fa fa-heart"></i></span> by <a href="http://mynameis.ch" target="_blank">mni</a></p>
 </div>
 </footer>
-
-<!-- Modal for command -->
-<section class="semantic-content" id="modal-text"
-		tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
-
-	<div class="modal-inner">
-		<div class="header">
-			<h2 id="modal-label">Bestellen Sie Online-Gutschein</h2>
-		</div>
-
-		<div class="modal-content">
-				<div class="modal-half">
-					<img src="../img/giftcard/giftcard-command.png" alt="Bons Angéloz et 1906" />
-				</div>
-				<div class="modal-half">
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="PU3RN4F35BEAU">
-<table>
-<tr><td><input type="hidden" name="on0" value="Betrag">Betrag</td></tr><tr><td><select name="os0">
-	<option value="50 Chfs Betrag -">50 Chfs Betrag - 50.00 CHF</option>
-	<option value="100 Chfs Betrag -">100 Chfs Betrag - 100.00 CHF</option>
-	<option value="200 Chfs Betrag -">200 Chfs Betrag - 200.00 CHF</option>
-	<option value="500 Chfs Betrag -">500 Chfs Betrag - 500.00 CHF</option>
-</select> </td></tr>
-<tr><td><input type="hidden" name="on1" value="Design">Design</td></tr><tr><td><select name="os1">
-	<option value="Angéloz Mode">Angéloz Mode </option>
-	<option value="1906">1906 </option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="CHF">
-<input type="image" src="https://www.paypalobjects.com/de_DE/CH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-</form>
-				</div>
-				<p>Die Giftcard wird per Einschreiben verschickt und ist in allen « Angéloz » Filialen in Fribourg, Bulle und Avry und in den "1906 by Angéloz" Filialen im Fribourg-Centre und Centre La Tour einsetzbar. Wird die 	Karte 36 Monate nicht genutzt, verfällt das Guthaben. Keine Barauszahlung des Gesamtbetrages oder Restsaldos möglich. Die Karte wird bei Verlust oder Diebstahl nicht ersetzt.</p>
-		</div>
-
-	</div>
-
-	<!-- Use Hash-Bang to maintain scroll position when closing modal -->
-	<a href="#!" class="modal-close" title="Close this modal"
-			data-dismiss="modal">&times;</a>
-</section><!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="../js/min/jquery.interaction-ck.js"></script>
 <script src="../js/jquery.magnific-popup.min.js"></script>
@@ -321,39 +278,11 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 
     	$('.covervid-video').coverVid(1280, 720);
 
-		$('#container-brands').mixItUp();
-    	
-	    $(function(){
-    jQuery('.svg img').each(function(){
-        var $img = jQuery(this);
-        var imgID = $img.attr('id');
-        var imgClass = $img.attr('class');
-        var imgURL = $img.attr('src');
-    
-        jQuery.get(imgURL, function(data) {
-            // Get the SVG tag, ignore the rest
-            var $svg = jQuery(data).find('svg');
-    
-            // Add replaced image's ID to the new SVG
-            if(typeof imgID !== 'undefined') {
-                $svg = $svg.attr('id', imgID);
-            }
-            // Add replaced image's classes to the new SVG
-            if(typeof imgClass !== 'undefined') {
-                $svg = $svg.attr('class', imgClass+' replaced-svg');
-            }
-    
-            // Remove any invalid XML tags as per http://validator.w3.org
-            $svg = $svg.removeAttr('xmlns:a');
-    
-            // Replace image with new SVG
-            $img.replaceWith($svg);
-    
-        }, 'xml');
-    
-    });
-});
-
+		$('#container-brands').mixItUp({
+			load: {
+				filter: '.fribourgwoman'
+			}
+		});
 
     });
 </script>

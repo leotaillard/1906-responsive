@@ -53,8 +53,8 @@
 .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
 /*  width: 100%;
 */  cursor: auto;
-  padding: 50px;
-  width: 75%;
+  padding: 50px 0;
+  width: 100%;
   background: white;
 }
 .mfp-inline-holder .mfp-content a, .mfp-ajax-holder .mfp-content a{

@@ -14,16 +14,13 @@
         <li class="image-link" href="img/mag/1906-FRIBOURG/1906-Fribourg-3.jpg">
           <img src="img/mag/mini/mini-fribourg-3.jpg" alt="magasin fribourg"/>
         </li>
-          <li class="ajax-popup-link" href="ajax-contents/contact-fribourg.html">
-          <img src="img/mag/mini/contact-fribourg.jpg" alt="contact fribourg" />
-        </li>
 
         <li class="image-link invisible" href="img/mag/1906-FRIBOURG/1906-Fribourg-2.jpg"></li>
       </ul>
       <ul class="gallery-mag gallery clearfix">
                 <!-- ICI C'EST LaTour -->
-        <li class="ajax-popup-link" href="ajax-contents/contact-latour.html">
-          <img src="img/mag/mini/contact-latour.jpg" alt="contact la Tour"/>
+        <li class="ajax-popup-link" href="ajax-contents/horaire-latour.html">
+          <img src="img/mag/mini/horaire-latour.jpg" alt="horaire la Tour"/>
         </li>
 
         <li class="image-link" href="img/mag/1906-LATOUR/1906-LaTour-1.jpg">
@@ -36,9 +33,6 @@
 
         <li class="image-link" href="img/mag/1906-LATOUR/1906-LaTour-3.jpg">
           <img src="img/mag/mini/mini-latour-3.jpg" alt="magasin la Tour"/>
-        </li>
-        <li class="ajax-popup-link" href="ajax-contents/horaire-latour.html">
-          <img src="img/mag/mini/horaire-latour.jpg" alt="horaire la Tour"/>
         </li>
       </ul>
     </div>

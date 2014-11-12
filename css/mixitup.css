@@ -41,18 +41,18 @@ ul#instafeed li{
 	margin: 0;
 
 }
- .gallery-mag{
+.gallery-mag{
   width: 100%;
   position: relative;
   list-style: none;
-  padding: 3px 0;
-  margin: 0 auto;
+  padding: 0 0;
+  margin: 0 auto 20px auto;
   text-align: left;
   width: 100%;
 }
 .gallery-mag li {
   float: left;
-  width: 20%;
+  width: 25%;
   height: 100%;
 	background: none repeat scroll 0 0 #444;
 	cursor: pointer;
@@ -61,7 +61,6 @@ ul#instafeed li{
 
 
 @media only screen and (max-width: 959px) {
-.issuuembed, #trends h2{display: none;}
 #brands-nav .filter{
 	cursor: pointer;
 	float: none;
@@ -100,6 +99,7 @@ text-align: center;
 width: 100%;
 height: 10px;
 }
+
 #container-brands .mix{min-height: 0;}
-.mix svg{display: none;}
+.mix svg, .mix img{display: none;}
 }
