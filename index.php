@@ -7,14 +7,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 <title>1906 by Angeloz</title>
 
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/text.css" />
-<link rel="stylesheet" href="css/skeleton.css" />
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/mixitup.css" />
-<link rel="stylesheet" href="css/magnific-popup.css"> 
-
-<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/style.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -241,9 +234,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="js/min/jquery.interaction-ck.js"></script>
-<script src="js/form.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/min/interaction.min.js"></script>
 <script type="text/javascript">
 
     $(document).ready(function () {
