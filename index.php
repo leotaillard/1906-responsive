@@ -234,7 +234,16 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="js/min/interaction.min.js"></script>
+
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/jquery.covervid.min.js"></script>
+<script src="js/jquery.instafeed.min.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.queryloader2.min.js"></script>
+<script src="js/jquery.angeloz.js"></script>
+
+<!-- <script src="js/min/interaction.min.js"></script> -->
 <script type="text/javascript">
 
     $(document).ready(function () {
