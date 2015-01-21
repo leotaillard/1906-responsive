@@ -90,9 +90,9 @@ For Boys Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selecte
 	<div class="arrow"><a href="#trends">▾</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
-    <video class="covervid-video" autoplay poster="../../img/intro/intro.jpg">
-        <source src="../video/AMBIANCE-1906.webmhd.webm" type="video/webm">
-        <source src="../video/AMBIANCE-1906.mp4.mp4" type="video/mp4">
+    <video class="covervid-video" autoplay loop muted poster="../../img/intro/intro.jpg">
+        <source src="../video/1906-scotch.webm" type="video/webm">
+        <source src="../video/1906-scotch.mp4" type="video/mp4">
     </video>
 </div>
 </section>
