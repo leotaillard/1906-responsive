@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 <title>1906 by Angeloz</title>
 
-<link rel="stylesheet" href="css/style.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.min.css" />
 
 <link rel="shortcut icon" href="ico/favicon.gif">
 
@@ -89,9 +89,9 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="arrow"><a href="#trends">▾</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
-    <video class="covervid-video" autoplay poster="img/intro/intro.jpg">
-        <source src="video/AMBIANCE-1906.webmhd.webm" type="video/webm">
-        <source src="video/AMBIANCE-1906.mp4.mp4" type="video/mp4">
+    <video class="covervid-video" autoplay muted loop poster="img/intro/intro.jpg">
+        <source src="video/1906-scotch.webm" type="video/webm">
+        <source src="video/1906-scotch.mp4" type="video/mp4">
     </video>
 </div>
 </section>
@@ -234,7 +234,16 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="js/min/interaction.min.js"></script>
+
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/jquery.covervid.min.js"></script>
+<script src="js/jquery.instafeed.min.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.queryloader2.min.js"></script>
+<script src="js/jquery.angeloz.js"></script>
+
+<!-- <script src="js/min/interaction.min.js"></script> -->
 <script type="text/javascript">
 
     $(document).ready(function () {
