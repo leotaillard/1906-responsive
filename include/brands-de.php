@@ -4,7 +4,7 @@ include("connect.php");
 
 
 // On envois la requète
-$sql = $pdo->query("SELECT * FROM marques WHERE display = 1");
+$sql = $pdo->query("SELECT * FROM marques WHERE display = 1 ORDER BY marque");
 $sql->setFetchMode(PDO::FETCH_OBJ);
 
 

@@ -20,7 +20,7 @@
 				<p>LES BOUTIQUES ANGÉLOZ SA<br>
 				Personal Abteilung<br>
 				Rue de Romont 33 • CP 6 • 1701 Fribourg<br>
-				rh@angeloz-mode.ch
+				rh[@]angeloz-mode.ch
 				</p>
 			</div>
 
@@ -42,7 +42,7 @@
 				<p>LES BOUTIQUES ANGÉLOZ SA<br>
 				Personal Abteilung<br>
 				Rue de Romont 33 • CP 6 • 1701 Fribourg<br>
-				rh@angeloz-mode.ch
+				rh[@]angeloz-mode.ch
 				</p>
 			</div>
 		</div>
